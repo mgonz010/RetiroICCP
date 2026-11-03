@@ -1,0 +1,667 @@
+codigo,Nombres,a_paterno,a_materno,rut,f_nacimiento,curso,sexo,comuna,nacionalidad
+1,María Paz,Navarro,Araya,22805388-0,2008-08-26,4° Medio D,Femenino,Renca,Chilena
+2,Anahís Ignacia,Zepeda,Pedraza,23637060-7,2011-05-04,2° Medio C,Femenino,Renca,Chilena
+3,Samantha Ignacia,Cavieres,Cáceres,23490503-1,2010-11-27,2° Medio C,Femenino,Renca,Chilena
+4,Dasha shanthall,Ramirez,Perez,27891863-7,2010-12-28,2° Medio D,Femenino,Renca,Peruana
+5,Mia amaral,Paredes,Contreras,23547196-5,2011-01-30,2° Medio C,Femenino,Renca,Chilena
+6,Sofía Antonia,Carrasco,Oviedo,23574844-4,2011-02-28,1° Medio C,Femenino,Renca,Chilena
+7,Gabriel vicente,Mella,Villegas,22823802-3,2008-09-17,3° Medio A,Masculino,Renca,Chilena
+8,Michelle Antonella,Ordenes,Rojas,23450791-5,2010-10-12,2° Medio C,Femenino,Renca,Chilena
+9,Miley Isidora,Diaz,Morales,23673054-9,2011-05-14,2° Medio D,Prefiero no decirlo,Renca,Chilena
+10,Valentina Ignacia,Concha,Núñez,23577168-3,2011-02-24,2° Medio D,Femenino,Renca,Chilena
+11,Emylia fernanda,Aravena,Borquez,23481274-2,2010-11-18,2° Medio C,Femenino,Renca,Chilena
+12,Katherine Fernanda,Trangol,Alfaro,23394340-1,2010-08-04,2° Medio C,Femenino,Renca,Chilena
+13,Eluney sofia,Mella,Villegas,23925608-2,2012-04-13,8° Básico A,Femenino,Renca,Chilena
+14,Donis Misael,Garces,Tarira,23423312-2,2010-09-08,2° Medio C,Masculino,Renca,Chilena
+15,Scarlet Belen,Concha,Nuñez,22911215-5,2008-12-17,4° Medio B,Femenino,Renca,Chilena
+16,Fabiana Valentina,Reyes,Boscan,26730301-0,2010-08-05,2° Medio D,Femenino,Renca,Venezolana
+17,Anahis belen,Espinoza,Figueroa,22669407-2,2008-03-12,4° Medio D,Femenino,Renca,Chilena
+18,Isidora agustina,Nirrian,Bernadot,23644167-9,2011-03-08,2° Medio C,Femenino,Renca,Chilena
+19,Rodrigo Antonio,Nuñez,Morales,22980282-8,2009-03-26,4° Medio C,Masculino,Renca,Chilena
+20,Oscar eduardo,Galleguillos,Heredia,23035146-5,2009-06-02,3° Medio C,Masculino,Renca,Chilena
+21,Renato Agustín,Luengo,Morales,24183610k,2013-02-01,8° Básico A,Masculino,Renca,Chilena
+22,Anahis belen,Espinoza,Figueroa,22669407-2,2008-03-12,4° Medio D,Femenino,Renca,Chilena
+23,belen Ignacia,albornoz,caro,22992515-6,2009-04-04,4° Medio D,Femenino,Renca,Chilena
+24,Benjamin gonzalo,Farias,Ramillanca,23068024-8,2009-07-09,3° Medio A,Masculino,Renca,Chilena
+25,Millaray Tamara,Gonzalez,Soto,23430518-2,2010-09-11,2° Medio C,Femenino,Cerro Navia,Chilena
+26,Valentina,Flores,Ruz,22667312-1,2008-03-12,4° Medio D,Femenino,Renca,Chilena
+27,Nicolas Alejandro,Solis,Muller,22909340-1,2008-12-31,3° Medio A,Masculino,Renca,Chilena
+28,Paula Francisca,Aguilar,Barría,22617130-4,2008-01-19,3° Medio A,Femenino,Renca,Chilena
+29,Claudio Alonso,Zambra,Calbucan,23511100-4,2010-12-27,2° Medio C,Masculino,Renca,Chilena
+30,Anaya Danae,Piñaleo,Alarcon,23066958-9,2009-07-07,3° Medio A,Femenino,Renca,Chilena
+31,Benjamín Lyan,Aguilar,Barría,23421214-1,2010-09-11,2° Medio C,Masculino,Renca,Chilena
+32,Raquel,Román,SOTO,22892294-3,2008-12-08,4° Medio D,Femenino,Renca,Chilena
+33,Lukas Vicente,Jelvez,Toledo,23440064-9,2010-10-05,2° Medio C,Masculino,Renca,Chilena
+34,Génesis Alexsandra,Caihuan,Orellana,22577006-9,2007-12-08,4° Medio D,Femenino,Renca,Chilena
+35,Joaquín Agustín,Barrientos,Guajardo,22790274-4,2008-08-07,4° Medio C,Masculino,Renca,Chilena
+36,Vicente Nicolás,González,Sánchez,23605970-7,2011-03-29,2° Medio C,Masculino,Renca,Chilena
+37,Rocio Antonia,ALVAREZ,BUSTOS,23627383-0,2011-04-23,2° Medio C,Femenino,Quinta normal,Chilena
+38,Rodrigo moises,Guerra,Catalán,22897558-3,2008-12-15,4° Medio C,Masculino,Renca,Chilena
+39,Amaro tomas,Muñoz,Dumenez,23027863-6,2009-05-27,3° Medio A,Masculino,Renca,Chilena
+40,Ithan Axel,Leal,Alegria,22819039-k,2008-09-13,4° Medio C,Masculino,Renca,Chilena
+41,Jorge yasel,Larenas,Campos,23007548-4,2026-04-30,2° Medio C,Masculino,Renca,Chilena
+42,Isidora alexandra,Fierro,Catalan,22662495-3,2008-03-05,4° Medio C,Femenino,Recoleta,Chilena
+43,Javiera Ignacia,Lopez,Tamayo,23511892-0,2010-11-25,2° Medio C,Femenino,Renca,Chilena
+44,Anhelí,Suárez,Zelada,23513886-7,2010-12-25,2° Medio C,Femenino,Renca,Chilena
+45,Anaís Paloma,Salinas,Olave,23475178-6,2010-11-10,2° Medio C,Femenino,Renca,Chilena
+46,Rosa Maria,Cantillana,Aguilera,22994568-8,2009-04-08,2° Medio D,Femenino,Renca,Chilena
+47,Martina Antonella,REYES,MUÑOZ,23715711-7,2011-08-08,1° Medio A,Femenino,Renca,Chilena
+48,Cristóbal Emiliano,Poblete,Contreras,22779968-4,2008-07-26,4° Medio C,Masculino,Pudahuel,Chilena
+49,Vicente javier,Kraljevich,Garcia,22878706k,2008-11-22,4° Medio C,Masculino,Renca,Chilena
+50,Sofia melisa,Aliaga,López,22665185-3,2008-03-03,4° Medio D,Femenino,Renca,Chilena
+51,Amaro tomas,Muñoz,Dumenez,23027863-6,2009-05-27,3° Medio A,Masculino,Renca,Chilena
+52,Aimara González,González,Arellano,22539709-0,2007-11-02,4° Medio D,Femenino,Renca,Chilena
+53,Jurley Andrea,Valencia,Angulo,28535471-4,2007-10-20,4° Medio D,Femenino,Renca,Colombiana
+54,Tomás Eduardo,Salas,Mariangel,22448734-7,2007-07-16,4° Medio C,Masculino,Renca,Chilena
+55,Aranza. Michell,RAmos,Cheuqueñanco,22593193-3,2007-12-02,4° Medio D,Femenino,Renca,Chilena
+56,Francisco Javier,Yañez,Blas,23290179-9,2010-04-05,3° Medio C,Masculino,Renca,Chilena
+57,Cristopher Jesus,Orellana,Bravo,22815187-4,2008-09-04,4° Medio C,Masculino,Renca,Chilena
+58,Madelaine gabriela,Arica,Viera,22976109-9,2009-03-17,4° Medio D,Femenino,Renca,Chilena
+59,Yulian Facundo,Merlicco,Chandia,24441384-6,2009-12-11,3° Medio C,Masculino,Renca,Chilena
+60,Amarilis inacia,Abarca,Abarca,22778809-7,2008-06-05,4° Medio D,Femenino,Renca,Chilena
+61,Karla antonia,Friant,Astorga,22475328-4,2007-08-15,4° Medio C,Femenino,Renca,Chilena
+62,Ignacio Alexander,Medina,Martínez,24133371-k,2012-12-03,8° Básico A,Masculino,Renca,Chilena
+63,Cristopher Alonso,Moya,Suazo,23645933-0,2011-05-16,2° Medio C,Masculino,Quinta normal,Chilena
+64,Boris Alexis,Caniuñir,Calfuqueo,22668042-k,2008-03-11,3° Medio C,Masculino,Renca,Chilena
+65,Benjamin andres,González,Rodríguez,22873453-7,2008-11-14,4° Medio C,Masculino,Renca,Chilena
+66,Sofía maitte,Caceres,Osorio,23528591-6,2010-12-18,2° Medio C,Femenino,Cerro Navia,Chilena
+67,Alonso salvador,Cortés,Azaad,23503113-2,2010-11-23,2° Medio C,Masculino,Renca,Chilena
+68,Anais daira Michelle,Flores,Collao,22634996-0,2008-02-05,4° Medio D,Femenino,Quilicura,Chilena
+69,Mateo Nehemías,Becerra,Morales,23443405-5,2010-09-27,2° Medio C,Masculino,Renca,Chilena
+70,Maximiliano Alberto,Plaza,Levipan,23167070-k,2009-11-10,3° Medio C,Masculino,Renca,Chilena
+71,Sofia Ignacia,Menares,Rojas,23485154-3,2010-11-20,2° Medio A,Femenino,Renca,Chilena
+72,Constanza Valentina,Tapia,Riquelme,23405888-6,2010-08-22,2° Medio A,Femenino,Renca,Chilena
+73,Bastian Alejandro,Gómez,Ortega,23428312-k,2010-09-14,2° Medio A,Masculino,Renca,Chilena
+74,Lucas,Mercado,Navarrete,23566920-k,2011-02-18,2° Medio A,Masculino,Renca,Chilena
+75,Maria Constanza,Estela,Villacorta,23316279-5,2010-05-08,2° Medio A,Femenino,Pudahuel,Chilena
+76,Jhoan Omar,Calderón,Carballo,28509326-0,2011-01-28,2° Medio A,Masculino,Renca,Boliviana
+77,Margarett Elizabeth,BOBADILLA,CUROTTO,2349194-3,2010-11-23,2° Medio A,Femenino,Renca,Chilena
+78,Liz Antonella Paz,Rodríguez,Romero,23044481-5,2009-06-06,2° Medio A,Femenino,Renca,Chilena
+79,Leidy oguilvia,Luicho,Quiroz,24968058-3,2011-03-21,2° Medio A,Femenino,Renca,Peruana
+80,Agatha pascale,Pincheira,Morales,23563212-8,2011-02-20,2° Medio A,Femenino,Renca,Chilena
+81,Ailyne antonia cecilia,Ancamilla,Espinoza,23434772-1,2010-09-27,1° Medio A,Femenino,Renca,Chilena
+82,Ignacia Carolina,GONZALEZ,FUENTES,23332266-0,2010-05-22,2° Medio A,Femenino,Renca,Chilena
+83,Ariadna tamara eliana,Lecaros,Varas,23132570-0,2009-09-25,2° Medio A,Femenino,Renca,Chilena
+84,Josué Raul Benjamín,Torres,González,23168409-3,2009-12-14,3° Medio C,Masculino,Renca,Chilena
+85,Constanza,Escobar,Vargas,23151772-3,2009-10-19,3° Medio D,Femenino,Renca,Chilena
+86,Gastón Alonso,Quilodran,Ñanculeo,23287246-2,2010-04-03,2° Medio A,Masculino,Renca,Chilena
+87,Ignacio,Ortuya,Robles,23317166-2,2010-05-08,2° Medio A,Masculino,Renca,Chilena
+88,Lucas Joaquín,García,Moreno,23399579-7,2010-08-16,2° Medio A,Masculino,Renca,Chilena
+89,Fabiana Antonela,Yañez,Quiroga,23206751-9,2009-12-23,3° Medio D,Femenino,Cerro Navia,Chilena
+90,Scarlett Adalia,Lagunas,Mondaca,23274595-9,2010-03-16,3° Medio A,Femenino,Renca,Chilena
+91,Nicole Priscilla,Ruiz,Pinillos,23479674-7,2010-11-13,2° Medio A,Femenino,Renca,Chilena
+92,Moyra Scarleth,Hernandez,Almonacid,23539379-4,2011-01-20,2° Medio A,Femenino,Renca,Chilena
+93,Joaquin Ignacio,Vasquez,Orrego,23079217-8,2009-07-23,3° Medio C,Masculino,Renca,Chilena
+94,Fernando miguel,Jorquera,Hidalgo,23191792-6,2009-12-01,3° Medio C,Masculino,Renca,Chilena
+95,Martina Belén,Frías,Díaz,22742358-7,2008-06-10,3° Medio D,Femenino,Renca,Chilena
+96,Alexis,Peralta,Hidalgo,23290945-5,2010-03-31,3° Medio C,Masculino,Renca,Chilena
+97,Javiera Antonia,Aedo,Cancino,23211197-6,2009-12-28,3° Medio C,Femenino,Renca,Chilena
+98,Rodrigo Andres,Duran,Medina,23077588-5,2009-07-22,3° Medio C,Masculino,Renca,Chilena
+99,Matías Manuel,Concha,Vidal,23160601-7,2009-10-24,3° Medio C,Masculino,Cerro Navia,Chilena
+100,Catalina Ysisdora,Fonseca,Sepulveda,23127430-8,2009-09-19,3° Medio B,Femenino,Renca,Chilena
+101,Javiera ignacia,Lopez,Poblete,23481909-7,2010-11-16,2° Medio A,Femenino,Renca,Chilena
+102,Ayleen danae,Polo,Ortega,22935291-1,2009-01-30,3° Medio B,Femenino,Renca,Chilena
+103,Melany,Peralta,Hidalgo,22505595-5,2007-09-07,3° Medio B,Femenino,Renca,Chilena
+104,Vicente Alejandro,Villagran,Mendez,23146815-3,2009-10-11,3° Medio A,Masculino,Renca,Chilena
+105,Carlos Emiliano,Labarca,Serey,23401967-8,2010-08-17,2° Medio A,Masculino,Renca,Chilena
+106,Emilia paz,Arce,Quinteros,23219902-4,2009-12-30,3° Medio D,Femenino,Renca,Chilena
+107,Katherine Emilia,Fonseca,Sepulveda,23127430-8,2009-09-19,3° Medio B,Femenino,Renca,Chilena
+108,Yasmin Noemi,Ibarra,Marileo,23179979-6,2010-11-23,3° Medio A,Femenino,Renca,Chilena
+109,Pablo Antonio,Mendez,Reyes,22831625-3,2008-09-30,3° Medio C,Masculino,Renca,Chilena
+110,Naomi betzabeth,Montoya,Ibarra,22805559-k,2008-08-27,4° Medio C,Femenino,Renca,Chilena
+111,Denisse Francisca,Orellana,Guajardo,23561897-4,2011-02-16,2° Medio A,Femenino,Renca,Chilena
+112,Damaris,Pusfol,Muñoz,23250906-6,2010-02-14,3° Medio A,Femenino,Renca,Chilena
+113,Martina Sofia,Beiza,Uribe,23122624-9,2009-09-14,3° Medio D,Femenino,Quilicura,Chilena
+114,Martina alejandra,Diaz,Marileo,22887901-0,2008-12-02,4° Medio C,Femenino,Renca,Chilena
+115,Alonso tomas,Lopez,Cabezas,22938171-7,2009-01-20,3° Medio B,Masculino,Renca,Chilena
+116,Vicente Manuel,Farias,Astorga,22273399-3,2010-03-15,3° Medio D,Masculino,Renca,Chilena
+117,León alexis,Quiroz,Merino,22968584-8,2009-03-12,3° Medio C,Masculino,Renca,Chilena
+118,Catalina Antonia,Miño,Herrera,23304848-8,2010-04-19,2° Medio B,Femenino,Renca,Chilena
+119,Alen Constanza,Quiñilen,Polanco,23075119-6,2009-07-17,3° Medio B,Prefiero no decirlo,Renca,Chilena
+120,Antonella Victoria,Videla,Muñoz,23913686-9,2012-03-30,1° Medio A,Femenino,Renca,Chilena
+121,Amara Saray,Hernández,Espinoza,23264392-7,2010-02-24,2° Medio B,Femenino,Renca,Chilena
+122,Leslie Estefania,Lopez,Oliva,22751464-7,2008-06-24,4° Medio D,Femenino,Renca,Chilena
+123,Alejandro Felipe,Aravena,Hott,23855 222-2,2012-01-28,1° Medio A,Masculino,Renca,Chilena
+124,Héctor vicente,Garrido,Vergara,23070129-6,2009-07-09,2° Medio B,Masculino,Renca,Chilena
+125,Montserrat Zamora,Zamora,Tamayo,23332037-4,2010-05-21,2° Medio B,Femenino,Renca,Chilena
+126,Valentina Skarlett,Astudillo,Aguilar,23681217-0,2011-06-30,1° Medio A,Femenino,Renca,Chilena
+127,Benjamin Eduardo Antonio,Sandoval,Lorca,23405561-5,2010-08-20,2° Medio B,Masculino,Renca,Chilena
+128,Ágata Jofre,Jofre,Rojas,24005333-0,2012-06-06,1° Medio A,Femenino,Renca,Chilena
+129,Dafne fernanda,Zuñiga,Manriquez,23697910-5,2011-07-21,1° Medio A,Femenino,Renca,Chilena
+130,Joaquin Eduardo,Ramirez,Caceres,22862-940-5,2008-11-06,3° Medio C,Masculino,Renca,Chilena
+131,Amanda Anais,Navas,Pinochet,22541603-6,2007-11-01,4° Medio D,Femenino,Renca,Chilena
+132,Florencia Jerusalén,Mena,Parra,23793048- 7,2011-11-10,1° Medio A,Femenino,Renca,Chilena
+133,Siomara Estrella Jeannette,Escobar,Lobos,23658153-5,2011-05-27,1° Medio A,Femenino,Renca,Chilena
+134,Joaquín Alexis,Velásquez,Gutiérrez,23886927-7,2012-02-29,1° Medio A,Masculino,Renca,Chilena
+135,Martín Alikhan,Gulamhussein,Banda,23242975-9,2011-08-13,1° Medio A,Masculino,Renca,Chilena
+136,Danitza Nicole,Millán,Cavero,22741574-6,2008-06-09,4° Medio B,Femenino,Renca,Chilena
+137,Bastian andres,Figueroa,Ormeño,22898974-6,2008-12-14,4° Medio B,Masculino,Renca,Chilena
+138,Belen Ignacia,Bravo,Velasquez,22581356-6,2007-12-18,4° Medio B,Femenino,Renca,Chilena
+139,Antonia jazmin,Cortez,Ramirez,22396565-2,2007-05-13,4° Medio B,Femenino,Renca,Chilena
+140,Antonia anais,Acuña,Urra,22923241-k,2009-01-12,4° Medio D,Femenino,Renca,Chilena
+141,Javiera Pascale,Marambio,Fontecilla,23878660-6,2012-02-21,1° Medio A,Femenino,Renca,Chilena
+142,Claudia Sofía,Peraza,Villalobos,28060513-1,2009-01-12,4° Medio B,Femenino,Renca,Venezolana
+143,Alexia Cristal,Vira,Salazar,22948242-4,2009-02-16,4° Medio B,Femenino,Renca,Chilena
+144,Maythe Alejandra,Uribe,Ortiz,22890754-5,2008-12-03,4° Medio D,Femenino,Renca,Chilena
+145,Diego felipe,Martinez,Herrera,23302250-0,2010-04-19,1° Medio A,Masculino,Renca,Chilena
+146,Nicole Antígona,Muñoz,Henríquez,22833602-5,2008-09-25,4° Medio B,Femenino,Renca,Chilena
+147,Hans Alberto,Uriol,Saman,22956699-7,2009-02-26,3° Medio B,Masculino,Renca,Chilena
+148,Isaac jacob,Araneda,Cuminao,22431717-4,2007-06-20,4° Medio B,Masculino,Renca,Chilena
+149,Yomaira yamile,Gaspar,Calderon,24771388-3,2010-04-19,2° Medio D,Femenino,Renca,Peruana
+150,Felipe gustavo,Arriagada,Pizarro,22260526-1,2006-11-12,4° Medio B,Masculino,Renca,Chilena
+151,Antonela maricruz,Valdes,Vargas,23033339-4,2009-09-29,3° Medio D,Femenino,Renca,Chilena
+152,Davi Elyel,Martins,González,22853750-0,2008-10-25,4° Medio C,Masculino,Renca,Chilena
+153,Gerald daniel,Tello,Retamal,24065193-9,2012-09-15,8° Básico A,Masculino,Renca,Chilena
+154,Damian Ariel,Soto,Perez,23547281-3,2011-01-31,2° Medio C,Masculino,Renca,Chilena
+155,Fernando Andrés,Valenzuela,Padilla,23540155-k,2011-01-20,2° Medio A,Masculino,Renca,Chilena
+156,Yhan Andrés,Madrid,Villacura,22995286-2,2009-04-10,3° Medio B,Masculino,Renca,Chilena
+157,Thiago,Rocha,Soliz,28273124-k,2011-03-24,2° Medio D,Masculino,Renca,Boliviana
+158,Darian jose alejandro,Carrasco,Flores,23607131-6,2011-03-26,2° Medio C,Masculino,Quilicura,Chilena
+159,Dominic Vice,Cáceres,Lavados,23030636-2,2009-05-28,4° Medio D,Femenino,Renca,Chilena
+160,Nicolas Antonio,Rocha,Soliz,28273134-7,2009-07-19,2° Medio D,Masculino,Renca,Boliviana
+161,Jocelyn leon,Morales vhieytes,León castro,22740840-5,2008-06-09,2° Medio B,Masculino,Renca,Chilena
+162,Dayanna antonella,Huaiquil,Tramolao,23840685-4,2012-01-10,1° Medio A,Femenino,Renca,Chilena
+163,Jean franco,Evehevarria,Aular,27911057-0,2009-09-20,3° Medio C,Masculino,Renca,Venezolana
+164,Dylan yeison,Cisternas,Caro,23704943-8,2011-07-29,1° Medio A,Masculino,Renca,Chilena
+165,Emilio Andrés,Galaz,Jara,23528608-4,2011-01-07,2° Medio D,Masculino,Renca,Chilena
+166,Valentina Carolina,Quezada,Orrego,23437642-k,2010-09-30,2° Medio C,Femenino,Renca,Chilena
+167,Cristina Macarena,Rodríguez,Burgos,22901026-3,2008-12-18,4° Medio B,Femenino,Renca,Chilena
+168,Sofía Ignacia,Araya,Cabello,22931412-2,2009-01-27,4° Medio D,Femenino,Renca,Chilena
+169,Martí Jesús,Fuentes,Rivas,23373299-0,2010-07-16,2° Medio B,Masculino,Renca,Chilena
+170,Benjamín Eduardo,Cortes,Calluil,22801381-1,2008-08-25,4° Medio C,Masculino,Renca,Chilena
+171,Bruno Exequiel,Cortes,Calluil,24325605-4,2013-07-02,7° Básico A,Masculino,Renca,Chilena
+172,Bruce Michael,Videla,Donoso,23434998-8,2010-09-24,2° Medio C,Masculino,Renca,Chilena
+173,Andrea anahy,Andrade,Silva,23369655-2,2010-07-07,2° Medio D,Femenino,Renca,Chilena
+174,Gabriel Ignacio,Jara,Carvajal,23228127-8,2020-01-20,2° Medio B,Masculino,Renca,Chilena
+175,kihara Antonella,carrasco,García,23123194-3,2009-09-11,2° Medio B,Femenino,Renca,Chilena
+176,Nicolas Eduardo,Moraga,Morales,22552602-8,2007-11-14,4° Medio B,Masculino,Renca,Chilena
+177,Isabella Eva,Reyes,Cortés,23156738-0,2009-10-27,3° Medio A,Femenino,Quinta normal,Chilena
+178,Sebastián Ignacio,Jirón,Roldán,23466179-5,2010-11-01,2° Medio C,Masculino,Renca,Chilena
+179,Francesca alexandra,Martinez,Bastias,23208248-8,2009-12-25,3° Medio C,Femenino,Renca,Chilena
+180,Bárbara Valeska,Gómez,Rivas,25902575-3,2008-08-23,4° Medio A,Femenino,Renca,Venezolana
+181,Lucila Antonella,García,Hernández,23688863-0,2011-07-09,1° Medio A,Femenino,Lampa,Chilena
+182,Martín Benjamín,Contreras,Donoso,22425690-6,2007-06-21,4° Medio A,Masculino,Renca,Chilena
+183,Cristóbal adriano,Merino,González,22915088-k,2009-01-05,4° Medio A,Masculino,Renca,Chilena
+184,Benjamin Isaías,Bravo,Lopez,22770304-0,2008-07-17,4° Medio A,Masculino,Renca,Chilena
+185,Antonella,Fritz,Bravo,24049096-9,2012-07-29,8° Básico A,Femenino,Renca,Chilena
+186,Maximiliano andres,Ñanco,Pichun,22683040-5,2008-03-27,4° Medio A,Masculino,Renca,Chilena
+187,Catalina del rosario,Oyarce,Lara,23312376-5,2010-04-29,2° Medio B,Femenino,Renca,Chilena
+188,Noemí antonia,Salinas,Campos,22708548-7,2008-04-29,4° Medio A,Femenino,Renca,Chilena
+189,Joaquin,Rodriguez,Pereira,23575870 9,2011-03-03,2° Medio A,Masculino,Renca,Chilena
+190,Agustín ignacio,Sereño,Caceres,22954610-4,2009-02-25,4° Medio A,Masculino,Renca,Chilena
+191,Maximiliano Andres,Ñanco,Pichun,22683040-5,2008-03-20,4° Medio A,Masculino,Renca,Chilena
+192,Alonso Javier,Alarcon,Loader,23157548-0,2009-10-22,3° Medio B,Masculino,Renca,Chilena
+193,Valeska Carlei,Sanchez,Castillo,100521495-1,2010-12-11,2° Medio D,Femenino,Cerro Navia,Venezolana
+194,Ema Larissa,Pereira,Gárnica,23621668-3,2011-04-16,1° Medio A,Femenino,Renca,Chilena
+195,Abigail Francisca,Rivera,Conejo,22355972-7,2007-03-19,4° Medio A,Femenino,Renca,Chilena
+196,Renata ignacia,Rivas,Salvador,22889110-9,2008-12-03,4° Medio C,Femenino,Renca,Chilena
+197,Eloisa alexandra,González,Guzmán,25697800-1,2011-07-09,1° Medio A,Femenino,Renca,Chilena
+198,Matías Alan Ignacio,González,Peralta,22925512-6,2009-01-12,4° Medio C,Masculino,Renca,Chilena
+199,Bernardo Manuel,Ramirez,Barraza,22954039-4,2009-02-24,4° Medio C,Masculino,Renca,Chilena
+200,Constanza Estefanía,López,Fuentes,22754895-9,2008-06-26,4° Medio D,Femenino,Renca,Chilena
+201,Boris alexis,Caniuñir,Calfuqueo,22668042-K,2008-03-11,4° Medio C,Masculino,Renca,Chilena
+202,Kerry yosuke,Barreto,Cabrera,22517412-1,2007-10-02,4° Medio A,Masculino,Renca,Chilena
+203,Enzo bayron,Chavez,Catrileo,22818102-1,2008-09-12,4° Medio A,Masculino,Cerro Navia,Chilena
+204,Catalina francisca,Mardones,Venegas,22523928-2,2007-10-11,4° Medio A,Femenino,Renca,Chilena
+205,María Fernanda,Ascencio,Reyes,22739579-6,2008-06-08,4° Medio A,Femenino,Renca,Chilena
+206,Violeta Paz,Ricaurte,Quintana,23766087-0,2011-10-08,1° Medio A,Femenino,Renca,Chilena
+207,Lucas martin,Olivera,Corvalan,22811419-7,2008-09-01,4° Medio A,Masculino,Renca,Chilena
+208,Lukas Vicente,Jelvez,Toledo,23440064-9,2010-10-05,2° Medio C,Masculino,Renca,Chilena
+209,Vicente Octavio,Mendoza,MORALES,23502041-6,2010-12-18,1° Medio D,Masculino,Renca,Chilena
+210,Antonella Constanza,Ibañez,Alegria,23608773-5,2011-03-23,2° Medio B,Femenino,Renca,Chilena
+211,Sofia carolina,Antiqueo,Tapia,22960808-8,2009-03-03,4° Medio D,Femenino,Renca,Chilena
+212,Sofia carolina,Antiqueo,Tapia,22960808-8,2009-03-03,4° Medio D,Femenino,Renca,Chilena
+213,Victoria,Noel,.,28037576-4,2012-01-15,1° Medio D,Femenino,Renca,Haitiana
+214,Tomas Salvador,Madriaga,Hernandez,23777833-2,2011-10-23,1° Medio D,Masculino,Renca,Chilena
+215,Alenger Anastacia,Llancafil,Gonzalez,23066233-9,2009-07-08,2° Medio B,Femenino,Renca,Chilena
+216,Martin Segundo,Acevedo,Leiva,23864545-K,2012-02-06,1° Medio B,Masculino,Renca,Chilena
+217,Gabriela Leonor,Rojas,Vallejos,22777993-4,2008-07-24,4° Medio C,Femenino,Renca,Chilena
+218,Nicole andrea,Trivilos,Trivilos,23893585-7,2012-07-04,1° Medio B,Femenino,Renca,Chilena
+219,Zhiqing,Zhong,Zhong,28898220-1,2013-11-24,7° Básico A,Femenino,Renca,China
+220,Javiera fernanda,Fuertes,Pino,23177674-5,2009-11-21,2° Medio B,Femenino,Renca,Chilena
+221,Álvaro Agustín,Pastor,Lopez,22887129-k,2008-12-02,3° Medio A,Masculino,Renca,Chilena
+222,Charlotte Reychell,Segura,Fernández,22816670-7,2008-09-07,4° Medio A,Femenino,Estación Central,Chilena
+223,Florencia Del Carmen,Suarez,Osses,23937885-4,2012-04-24,1° Medio C,Femenino,Renca,Chilena
+224,Dayana Franchesca,Oliva,Figueroa,23919526-1,2012-04-05,1° Medio B,Femenino,Renca,Chilena
+225,Sofía Ignacia,Manqueo,Ñanculef,22918240-4,2009-01-09,4° Medio C,Femenino,Renca,Chilena
+226,Francisca Alejandra,Manqueo,Ñanculef,23418001-0,2010-08-26,2° Medio C,Femenino,Renca,Chilena
+227,Ivanna Isabella,Reyes,Boscan,26730269-3,2014-01-26,7° Básico A,Femenino,Renca,Venezolana
+228,Emili Francisca,Quintero,Garcia,23605492-6,2011-03-28,2° Medio A,Femenino,Renca,Chilena
+229,Claudia denis,Figueroa,Valenzuela,23248387-3,2010-02-13,2° Medio D,Femenino,Pudahuel,Chilena
+230,Antonella Ignacia,Pino,Astudillo,24505385-1,2014-01-06,7° Básico A,Femenino,Renca,Chilena
+231,Matias Nicolas,Piña,Carrasco,22889418-4,2008-12-03,4° Medio C,Masculino,Renca,Chilena
+232,Jaime andres,Araneda,Solis,2294836-2,2009-02-12,4° Medio C,Masculino,Renca,Chilena
+233,Ruby,García,Martínez,25999306-7,2008-08-14,4° Medio C,Femenino,Renca,Boliviana
+234,Araxcelly Katalina Rayen,Carvajal,Vasquez,2359844-7,2011-02-25,2° Medio D,Femenino,Renca,Chilena
+235,Millaray Aracely Aolanis,Ordenes,Rojas,22882589-1,2008-11-26,3° Medio D,Femenino,Renca,Chilena
+236,Carla betsabé,Aravena,Carrera,22823431-1,2008-09-20,3° Medio C,Femenino,Renca,Chilena
+237,Renzo yamir,Verastegui,Obeso,26155811-4,2008-12-18,3° Medio D,Masculino,Renca,Peruana
+238,Cristina ignacia,Correa,Sandoval,23557961-8,2011-02-04,2° Medio A,Femenino,Renca,Chilena
+239,Malileydie,Dorency,Estinvil,28124505-8,2009-01-22,3° Medio A,Femenino,Renca,Haitiana
+240,Diego  Alonso,Muñoz,Bornes,23086566-3,2009-07-30,2° Medio D,Masculino,Renca,Chilena
+241,Luis Ignacio,Cautivo,Gatica,23318711-9,2010-04-19,3° Medio C,Masculino,Renca,Chilena
+242,Joaquín Alexander,Herrera,Huenchunao,22987066-1,2009-04-02,4° Medio C,Masculino,Renca,Chilena
+243,Anaís Alejandra,Cortés,Ibañez,22952913-7,2009-02-22,4° Medio D,Femenino,Renca,Chilena
+244,João Ismael,Pereira,Garnica,24130510-4,2012-11-25,8° Básico A,Masculino,Renca,Chilena
+245,Anibal,Rojas,Quezada,22944868-4,2009-02-12,4° Medio A,Masculino,Renca,Chilena
+246,Julio,Nain,Llancaleo,22939499-1,2009-02-04,3° Medio B,Masculino,Renca,Chilena
+247,Dailyn esperanza belén,Yáñez,Cubillos,23304798-8,2010-04-24,2° Medio D,Femenino,Renca,Chilena
+248,Dailyn esperanza Belén,Yáñez,Cubillos,23304798-8,2010-04-24,2° Medio D,Femenino,Renca,Chilena
+249,alejandra del carmen,hermosilla,martínez,23198886-6,2009-12-12,3° Medio D,Masculino,Renca,Chilena
+250,José Luis franco,Huentecura,Vargas,22780803-9,2025-12-11,4° Medio C,Masculino,Renca,Chilena
+251,Anahis Constanza,Rubilar,Valdivia,23242543-1,2010-02-04,3° Medio D,Femenino,Renca,Chilena
+252,Constanza yumalay,Cordova,Opazo,23220218-1,2010-01-09,3° Medio D,Femenino,Renca,Chilena
+253,Betsabe Salomé,Silva,León,23641524-4,2011-05-12,1° Medio A,Femenino,Renca,Chilena
+254,Francisca acuña,Acuña,Hernandez,23114473-0,2009-09-02,3° Medio C,Femenino,Renca,Chilena
+255,Valentina leyton,Leyton,Morales,23286932-1,2010-03-29,3° Medio D,Femenino,Renca,Chilena
+256,Josué Benjamin,Silva,León,23045355-1,2009-06-09,3° Medio C,Masculino,Renca,Chilena
+257,Jesus,Noesi,Sanchez,25410473-6,2009-06-06,3° Medio C,Masculino,Renca,República Dominicana
+258,Manuel Emilio alonso,Navarrete,Cortèz,23248902-2,2011-02-10,3° Medio C,Masculino,Renca,Chilena
+259,"Santa,genaro",Noesi,Sanchez,25410473-6,2009-06-06,3° Medio D,Masculino,Renca,República Dominicana
+260,"Santa, Genaro",Noesi,Sánchez,25410473-6,2009-06-06,3° Medio D,Masculino,Renca,República dominicana
+261,Camila,Carrasco,Henrriquez,22792239-7,2008-08-09,3° Medio C,Femenino,Renca,Chilena
+262,Juan Manuel,Ramírez,Saavedra,23066626_1,2009-07-05,2° Medio B,Masculino,Renca,Chilena
+263,Hector Antonio,Zambrano,Vergara,22501461-2,2007-09-11,3° Medio C,Masculino,Renca,Chilena
+264,Maite Esperanza,Lazcano,Godoy,23429648-5,2010-09-17,2° Medio A,Femenino,Renca,Chilena
+265,Fernanda Javiera,Gomez,Gutiérrez,22819164-7,2008-09-09,4° Medio D,Femenino,Renca,Chilena
+266,Julian Andres,Hidalgo,Godoy,22964995-7,2009-03-04,4° Medio B,Masculino,Renca,Chilena
+267,Yasmin mireya,Maiz,Cuellar,25835916-k,2012-10-18,8° Básico A,Femenino,Renca,Peruana
+268,Andres Felipe,Godoy,Pereira,23286685-3,2010-03-31,3° Medio C,Masculino,Renca,Chilena
+269,Candida aurora,Vasquez,Diaz,23563834-7,2011-02-16,2° Medio D,Femenino,Renca,Chilena
+270,Victor Manuel,Zegers,Morales,23252782k,2010-02-16,2° Medio B,Masculino,Renca,Chilena
+271,Leonor Rosario,Carrasco,Osorio,22943013-0,2009-02-09,4° Medio D,Femenino,Renca,Chilena
+272,Alejandro Andrés,Bravo,Toro,29090691-1,2010-02-10,3° Medio C,Masculino,Quinta normal,Venezolana
+273,Yanara Belén,San Martín,Estrada,22759304-0,2008-07-03,4° Medio D,Femenino,Renca,Chilena
+274,Valentina Constanza,Hernández,San Martin,22608729-k,2008-01-09,4° Medio B,Femenino,Renca,Chilena
+275,Felipe Ignacio,Villa,Portales,23497624-9,2010-12-09,2° Medio D,Masculino,Pudahuel,Chilena
+276,Fred yovanni,Pacheco,Sanchez,23794378-1,2009-08-01,3° Medio C,Masculino,Renca,Chilena
+277,Santiago Antonio,Soliz,Camacho,25852944-8,2011-08-10,8° Básico A,Masculino,Renca,Boliviana
+278,Javiera pascal,Muñoz,Pardo,23254147-4,2010-02-17,3° Medio A,Femenino,Pudahuel,Chilena
+279,Geraldine Antonia,Albornoz,Perez,23229021-8,2010-01-20,3° Medio D,Femenino,Quinta normal,Chilena
+280,Martina  isidora,Vallejos,Albornoz,22673958-0,2008-03-18,4° Medio D,Femenino,Renca,Chilena
+281,Matías Francisco,Arteaga,Ramirez,24900745-5,2008-12-05,4° Medio A,Masculino,Renca,Ecuatoriana
+282,Eunice rene,Escobar,Yalta,25689562-5,2009-10-15,3° Medio D,Femenino,Renca,Peruana
+283,Aylin Agustina,Vergara,Díaz,22818795-k,2008-09-10,3° Medio D,Femenino,Renca,Chilena
+284,Andrés Ignacio,Romero,Moncada,22775988-7,2008-07-23,4° Medio C,Masculino,Renca,Chilena
+285,Rayen Antonia,Ruiz,Huilipan,23261707-1,2010-02-26,3° Medio D,Femenino,Renca,Chilena
+286,Trinidad Soledad,Patiño,Dinamarca,22890028-1,2008-12-04,4° Medio A,Femenino,Renca,Chilena
+287,Melany Yarina,Otavalo,Saransig,28473996-5,2009-10-15,3° Medio B,Femenino,Renca,Ecuatoriana
+288,Máximo alonso Nicolás,Valdés,Carbajal,23352983-4,2010-06-18,2° Medio B,Masculino,Renca,Chilena
+289,Bruno Gonzalo,Trelles,Navarro,28341361-6,2009-09-15,3° Medio C,Masculino,Renca,Peruana
+290,Francisca ignacia,Gajardo,Pradenas,22873914-6,2008-11-19,4° Medio B,Femenino,Renca,Chilena
+291,Natalia waleska,Gómez,Rivas,25902571-0,2009-09-18,3° Medio C,Femenino,Renca,Venezolana
+292,ISIDORA BELEN,CABRERA,LARA,23978348-1,2012-06-06,8° Básico B,Femenino,Renca,Chilena
+293,Emilia florencia,Cares,Suarez,23413727-1,2010-08-31,2° Medio B,Femenino,Renca,Chilena
+294,Colomba Antonia,Vergara,Marin,24330229-3,2013-07-12,7° Básico A,Femenino,Renca,Chilena
+295,Mateo Andrés,García,Pérez,22886472-2,2008-11-27,3° Medio A,Masculino,Renca,Chilena
+296,Josefina Alma,Ancatrio,Martínez,22915382-K,2008-12-07,4° Medio C,Femenino,Renca,Chilena
+297,Martina Fernanda,Navarrete,Saavedra,23118863-0,2009-09-08,3° Medio A,Femenino,Renca,Chilena
+298,Matilda Isidora,Reyes,Cuadra,24595260-0,2014-04-11,7° Básico A,Femenino,Renca,Chilena
+299,Sofia Aracelly,Cabrillana,Troncoso,24183812-9,2013-02-04,8° Básico B,Femenino,Renca,Chilena
+300,Emilia antonia,Sepúlveda,Leon,22424120-8,2007-06-16,4° Medio B,Femenino,Cerro Navia,Chilena
+301,Victoria belen,Macias,Supanta,22678138-2,2008-03-24,4° Medio B,Femenino,Renca,Chilena
+302,Alonso Nicolas,Vergara,Contreras,22793674-6,2008-08-15,4° Medio A,Masculino,Renca,Chilena
+303,Dylan,Escudero,Sanchez,22800922-9,2008-08-18,4° Medio B,Masculino,Renca,Chilena
+304,Valentina,Nilo,Alarcón,22711758-3,2008-04-22,4° Medio D,Femenino,Renca,Chilena
+305,Gaspar Alejandro,Torres,Venegas,23248988k,2010-02-05,2° Medio B,Masculino,Renca,Chilena
+306,martina monserrat,carreño,castro,23263018-3,2010-03-05,2° Medio B,Femenino,Renca,Chilena
+307,Vicente Ricardo,rojas,Silva,24193414-4,2013-02-13,8° Básico B,Masculino,Renca,Chilena
+308,Ayelen Antonia,Oteiza,Nuñez,14630142-8,2007-06-29,4° Medio D,Femenino,Renca,Chilena
+309,Esperanza Catalina,Cabrera,Leviqueo,23958409-8,2012-05-23,1° Medio C,Femenino,Renca,Chilena
+310,Ainer Alexander,Avila,Vargas,100460727-5,2011-12-18,1° Medio C,Masculino,Renca,Venezolana
+311,Sofia melisa,Aliaga,López,22665185-3,2008-03-03,4° Medio D,Femenino,Renca,Chilena
+312,Manuel Jesús,Luttges,Echeverria,22895268-0,2008-12-12,3° Medio B,Masculino,Renca,Chilena
+313,Melanye Altair,kruger,Morales,24026622-9,2012-07-24,7° Básico A,Femenino,Renca,Chilena
+314,María Eugenia,Dominguez,Dominguez,23682341-5,2011-06-29,1° Medio C,Femenino,Renca,Chilena
+315,Constanza  dannae,Arriagada,Marchant,23236069-0,2026-01-28,1° Medio A,Femenino,Renca,Chilena
+316,Vicente Hernán,Carrasco,Herrera,22955708-4,2009-02-26,4° Medio C,Masculino,Renca,Chilena
+317,Jorge,Lara,Gallegos,23336445-2,2010-05-27,3° Medio B,Masculino,Cerro Navia,Chilena
+318,Thyare Antonella,Aliaga,Albornoz,23238391-7,2010-01-30,3° Medio B,Femenino,Renca,Chilena
+319,Sebastián andres,Lara,Gallegos,22840919-7,2008-10-01,3° Medio B,Masculino,Cerro Navia,Chilena
+320,Fernanda  Ayleen,Figueroa,Gaete,23536635-5,2011-01-19,2° Medio D,Femenino,Renca,Chilena
+321,Jimmy Eduardo,Maldonado,Sepúlveda,23175857-7,2009-11-20,3° Medio C,Masculino,Renca,Chilena
+322,Noelia francisca,Muñoz,Moraga,23153928-k,2009-09-23,3° Medio A,Femenino,Renca,Chilena
+323,Johan jarol jastin,Cavero,Murga,23269536-6,2010-03-13,2° Medio B,Masculino,Renca,Chilena
+324,Bastian Francisco,Yáñez,Palma,22839366-5,2008-09-23,4° Medio A,Masculino,Renca,Chilena
+325,Tomás Ignacio,Molina,Varela,22809289-4,2008-09-01,4° Medio C,Masculino,Renca,Chilena
+326,Monserrat anis,Alvarez,Santander,23005546-7,2009-04-24,4° Medio A,Femenino,Pudahuel,Chilena
+327,Bastian Ignacio,Salazar,Rodríguez,22749975-3,2008-06-19,3° Medio B,Masculino,Renca,Chilena
+328,Felipe,Villanueva,De la Cruz,23449922-k,2010-10-15,2° Medio C,Masculino,Renca,Chilena
+329,Isidora Catalina,Zuñiga,Seguel,23959057-8,2012-05-16,8° Básico A,Femenino,Renca,Chilena
+330,Karen Johana,Villanueva,De la Cruz,22890794-4,2008-12-08,4° Medio B,Femenino,Renca,Chilena
+331,Ailyn Antonella,Carrasco,Contreras,23125915-5,2009-09-10,2° Medio D,Femenino,Renca,Chilena
+332,Maximo Andres,Herrera,Estay,23013116-3,2009-05-07,3° Medio A,Masculino,Renca,Chilena
+333,Bastián Matías,Gonzalez,Lazo,22513291-7,2007-09-26,3° Medio A,Masculino,Renca,Chilena
+334,Valentina millaray,Figueroa,Escalona,22889275-0,2008-12-05,4° Medio D,Femenino,Renca,Chilena
+335,Sebastian Alonso,Mendez,Alarcon,23914606-6,2012-03-29,1° Medio D,Masculino,Renca,Chilena
+336,Nicolás martin,Galimide,Zelada,22803821-0,2008-08-26,4° Medio A,Masculino,Renca,Chilena
+337,Sofia Melisa,Aliaga,Lopez,22665185-3,2008-03-03,4° Medio D,Femenino,Renca,Chilena
+338,Anderson Giovanni,Castellanos,Valencia,28450579-4,2006-09-14,4° Medio A,Masculino,Renca,Venezolana
+339,Florencia Anaís,Vergara,Brauning,23636975-7,2011-05-03,1° Medio B,Femenino,Renca,Chilena
+340,Colomba Ignacia,San martin,Soto,22754826-6,2008-06-26,4° Medio B,Femenino,Renca,Chilena
+341,Cristóbal Nicolás,Álvarez,Adriazola,23861485-6,2012-02-02,1° Medio B,Masculino,Renca,Chilena
+342,Debora,Arce,Guzman,22634287-7,2008-02-06,4° Medio A,Femenino,Renca,Chilena
+343,Brigitte angelina,González,Vergara,23074304-5,2009-07-20,3° Medio D,Femenino,Renca,Chilena
+344,Catalina Dominique,Rojas,Jimenez,?,2008-09-22,4° Medio B,Femenino,Renca,Chilena
+345,Eluney Fernanda,San Martín,Figueroa,23308529-4,2010-04-21,3° Medio C,Femenino,Renca,Chilena
+346,Amber Paulette,Fuentes,Santos,23866593-0,2012-02-08,1° Medio D,Femenino,Renca,Chilena
+347,Joaquín Didier,Chavez,Valenzuela,23054041-1,2009-06-20,3° Medio C,Masculino,Renca,Chilena
+348,Jeremy,Garay,Orellana,22 678 2389,2008-03-21,3° Medio B,Masculino,Renca,Chilena
+349,Emilia katalina,Lopez,Jara,23889506-5,2012-03-03,1° Medio B,Femenino,Renca,Chilena
+350,Martina Scarlette,Gallo,Guzmán,23340004-1,2010-05-30,8° Básico A,Femenino,Renca,Chilena
+351,Florencia Garrido,Garrido,Guajardo,24173764-0,2013-01-19,8° Básico A,Femenino,Renca,Chilena
+352,Danae yanara,Ibarra,Vergara,23065675-4,2009-07-07,3° Medio D,Femenino,Renca,Chilena
+353,Boris Kamill,Figueroa,Sanhueza,23469238-0,2010-10-31,1° Medio A,Masculino,Renca,Chilena
+354,Jadiel,Pinto,Orellana,24045880-2,2012-08-23,8° Básico A,Masculino,Renca,Chilena
+355,Dylan Maximiliano,Rebolledo,Villegas,23641265-2,2011-05-11,1° Medio B,Masculino,Renca,Chilena
+356,Francisca Alejandra,Manqueo,Ñanculef,23418001-0,2010-08-26,2° Medio B,Femenino,Renca,Chilena
+357,Álvaro Antonio,González,Pereira,22861483-1,2008-11-05,4° Medio A,Masculino,Renca,Chilena
+358,Maite Fernanda,Soto,Gana,22987662-7,2009-04-02,4° Medio B,Femenino,Renca,Chilena
+359,Steven,Garay,Orellana,22 990 3284,2009-03-25,2° Medio D,Masculino,Renca,Chilena
+360,Alexander Abdol,Ibañez,Ibañez,23199267-7,2009-12-10,3° Medio C,Masculino,Renca,Chilena
+361,Antonella paz,Silva,Lagos,24095287-4,2012-10-12,8° Básico A,Femenino,Renca,Chilena
+362,Mahite,Pino,Carmona,23234147-5,2026-01-17,2° Medio D,Femenino,Renca,Chilena
+363,Martina Antonia,Plaza,San Martin,23249576-6,2010-02-11,3° Medio D,Femenino,Renca,Chilena
+364,Romina isidora,Chavez.,Pilquinao,23071694-3,2009-07-01,2° Medio B,Femenino,Renca,Chilena
+365,Jean Jhon Mackey,Veas,Carmona,22933238-4,2009-01-26,3° Medio A,Masculino,Renca,Chilena
+366,Anyelina anais,Reyes,Pacheco,23107453-8,2009-08-27,3° Medio D,Femenino,Cerro Navia,Chilena
+367,Valentina Paz,Gonzalez,Pereira,23638857-3,2011-05-10,1° Medio B,Femenino,Renca,Chilena
+368,Yanara valentina,Escobar,Vargas,23787212-6,2011-11-03,1° Medio B,Femenino,Renca,Chilena
+369,Catalina Andrea,Sanhueza,Pallero,23299531-9,2010-04-14,3° Medio C,Prefiero no decirlo,Renca,Chilena
+370,Fernanda Millaray,urrutia,garrido,22884166-8,2008-11-14,3° Medio D,Femenino,Renca,Chilena
+371,Boris Kamill,Figueroa,Sanhueza,23469238-0,2010-10-31,1° Medio B,Masculino,Renca,Chilena
+372,Bryan david,Fuentes,Trincado,23401748-9,2010-08-17,8° Básico A,Masculino,Renca,Chilena
+373,Agustin clemente,Jara,Torres,23771862-3,2011-10-01,1° Medio B,Masculino,Renca,Chilena
+374,Florencia esperanza,Jara,torres,23771844-5,2011-10-01,1° Medio B,Femenino,Renca,Chilena
+375,Blanca andrea,Maldonado,Olivares,23162331-0,2009-11-02,3° Medio D,Femenino,Renca,Chilena
+376,Mia Pascola,Moncada,Ya?ez,22652873-3,2008-02-25,3° Medio D,Femenino,Renca,Chilena
+377,Ignacio Alonso,Castro,Chacón,22895661-9,2008-12-12,4° Medio A,Masculino,Renca,Chilena
+378,Nelson benjamín,Maldonado,Moreno,23064874-3,2009-07-06,2° Medio B,Masculino,Renca,Chilena
+379,Génesis dannae,Avendaño,Henriquez,,2010-10-27,2° Medio D,Femenino,Lampa,Chilena
+380,Katherin cecilia,Correa,Cadenas,25776209-2,2007-03-30,4° Medio A,Femenino,Renca,Chilena
+381,Pascale Toledo,Toledo,Salazar,24227192-0,2013-03-20,8° Básico A,Femenino,Renca,Chilena
+382,Agustin Tomás,Yañez,Pinto,22939206-9,2009-02-04,4° Medio C,Masculino,Renca,Chilena
+383,Paul adams,Hernandez,Garrido,22926563-6,2009-01-22,3° Medio D,Masculino,Renca,Chilena
+384,Antonia Isidora,Fuentes,Gonzalez,23828820-7,2011-12-25,1° Medio C,Femenino,Renca,Chilena
+385,Fernando Andres,Vergara,Silva,22815329-k,2008-09-07,4° Medio B,Masculino,Renca,Chilena
+386,Axel Felipe,Flores,Inalaf,23731866-8,2011-08-29,1° Medio C,Masculino,Renca,Chilena
+387,Maura elsa noemi,Rocha,Figueroa,12654930-k,2010-04-01,3° Medio D,Femenino,Renca,Chilena
+388,Valeria Dominique,Pardo,Araya,22699545-5,2008-04-15,4° Medio D,Femenino,Renca,Chilena
+389,Belén camila,Garcia,Sanchez,22763688-2,2008-06-23,4° Medio D,Femenino,Renca,Chilena
+390,Naomi esmeralda,Blanco,Soria,22955236-8,2008-12-27,3° Medio A,Femenino,Renca,Chilena
+391,Carla betsabe,Aravena,Carrera,13563224-4,2007-09-20,3° Medio C,Femenino,Renca,Chilena
+392,Cristóbal Eduardo,Friz,Artiaga,23425870-2,2010-09-14,1° Medio B,Masculino,Renca,Chilena
+393,Benjamín,marchan,Bakx,22 919353-8,2008-12-21,3° Medio A,Masculino,Renca,Chilena
+394,Vicente Aaron,Rodríguez,Quiñileo,23106252-1,2009-08-24,3° Medio A,Masculino,Renca,Chilena
+395,Antonella Alexandra,Hernandez,Bernadot,17731259-2,2010-05-07,3° Medio B,Femenino,Renca,Chilena
+396,Alondra Netzerine,Pinto,Mella,22430703-9,2007-06-28,4° Medio A,Femenino,Estación Central,Chilena
+397,Jonathan Hernan,Silva,Lagos,23661500-6,2011-06-04,1° Medio A,Masculino,Renca,Chilena
+398,Anelí sayén,Maldonado,Moraga,23315634-5,2010-05-07,2° Medio B,Femenino,Renca,Chilena
+399,Allizon,Sanchez,Telag,100845618-2,2011-03-29,2° Medio B,Femenino,Renca,Colombiana
+400,Vicente Nicolás,González,Sánchez,23605970-7,2011-03-29,2° Medio C,Masculino,Renca,Chilena
+401,Nicolas Benjamin,Maldonado,Diaz,23394875-2,2010-08-08,1° Medio A,Masculino,Renca,Chilena
+402,Mia belen,Bahamondes,Torres,22785374-3,2008-07-19,4° Medio D,Femenino,Renca,Chilena
+403,Viviana antonia,Rios,Torres,22565340-2,2007-11-28,3° Medio B,Femenino,Renca,Chilena
+404,Constanza Belen,Ibarra,Vergara,23741200-1,2011-09-08,1° Medio C,Femenino,Renca,Chilena
+405,Martina paz,Fuentes,Reveco,23322969-5,2010-05-14,2° Medio B,Femenino,Renca,Chilena
+406,James,Dorency,,28123371-8,2012-02-02,1° Medio D,Masculino,Renca,Haitiana
+407,Romina isidora,Chavez,Pilquinao,23071694-3,2009-07-01,2° Medio B,Femenino,Renca,Chilena
+408,Paul adams,Hernández,Garrido,22926563-6,2009-01-22,3° Medio D,Masculino,Renca,Chilena
+409,Carlos Javier,Cubillos,Quinteros,22706288-6,2008-03-01,4° Medio A,Masculino,Renca,Chilena
+410,Agatha Del Pilar,Cubillos,Mera,22817810-1,2008-09-09,3° Medio D,Femenino,Renca,Chilena
+411,Damián alejandro,Huinca,Silva,23824932-5,2017-12-17,1° Medio B,Masculino,Renca,Chilena
+412,Santiago Antonio,Soliz,Camacho,25852944-8,2011-08-10,1° Medio A,Masculino,Renca,Boliviana
+413,Alexander Javier,Valdenegro,Donoso,23007544-1,2009-04-13,2° Medio B,Masculino,Renca,Chilena
+414,Javier Alexander,Mondaca,Molina,22171320-6,2006-06-28,4° Medio B,Masculino,Renca,Chilena
+415,Héctor Antonio,Zambrano,Vergara,22501461-1,2007-09-11,3° Medio C,Masculino,Renca,Chilena
+416,María Fernanda,Díaz,González,22994201-1,2009-04-13,4° Medio C,Femenino,Renca,Chilena
+417,Diego Alonso,Molina,Lagos,23187508-5,2009-11-27,2° Medio B,Masculino,Cerro Navia,Chilena
+418,Maximo Eduardo,Gomez,Arroyo,23559341-6,2011-02-10,1° Medio B,Masculino,Renca,Chilena
+419,Ignacia  antonia,Fernandez,Muñoz,20338324-k,2008-09-15,4° Medio B,Femenino,Renca,Chilena
+420,Romina isidora,Chavez,Pilquinao,23071694-3,2009-07-01,2° Medio B,Femenino,Renca,Chilena
+421,Cristóbal emilio,Ramillanca,Olivares,23600617-4,2011-03-21,2° Medio D,Masculino,Renca,Chilena
+422,Aibsel,Correa,Cadenas,25776211-4,2010-04-22,3° Medio B,Femenino,Renca,Chilena
+423,Krishna polette,Nahuelhual,Nahuelhual,23199502-1,2009-12-12,1° Medio C,Femenino,Renca,Chilena
+424,Miguel Angel De Jesus,Quilodran,Mallea,23880290-3,2012-02-23,1° Medio C,Masculino,Renca,Chilena
+425,Mia angelina,Benitez,Sosa,27791172-8,2011-06-29,2° Medio A,Femenino,Renca,Chilena
+426,Dylan Alexis,Barrera,Aguilera,23090746-3,2009-08-05,3° Medio C,Masculino,Renca,Chilena
+427,Leskarlet,Correa,Cadenas,253776210-6,2009-02-24,3° Medio B,Femenino,Renca,Chilena
+428,Danilo Emanuel,Flores,Contreras,23504588-5,2010-12-17,2° Medio D,Masculino,Renca,Chilena
+429,Estefania trinidad,Lopez,Espinoza,23472555-6,2010-10-22,1° Medio B,Femenino,Renca,Chilena
+430,Rodrigo Jesus,Castillo,Perez,27379079-9,2012-07-26,8° Básico B,Masculino,Renca,Venezolana
+431,Benjamin Maximiliano,Diaz,Zenteno,23932830-k,2011-04-17,1° Medio C,Masculino,Pudahuel,Chilena
+432,Hector exequel,Sepulveda,Aceituno,23883185-7,2012-02-26,1° Medio D,Masculino,Renca,Chilena
+433,Dylan alexis,Barrera,Aguilera,23090746-3,2009-08-05,3° Medio C,Masculino,Renca,Chilena
+434,Maximiliano Andres,Veña,Pinto,23251904-5,2010-02-12,1° Medio B,Masculino,Renca,Chilena
+435,Martin Ignacio,Diaz,Centeno,23582473-6,2010-03-02,2° Medio B,Masculino,Pudahuel,Chilena
+436,Antonella,Micllacan,Villagran,23756158-9,2011-07-22,1° Medio C,Femenino,Renca,Chilena
+437,Laura Francisca,Ancapichun,Bustcovich,23885618-3,2012-02-21,1° Medio B,Femenino,Renca,Chilena
+438,Anahis sofia,Olea,Toro,23889810-2,2012-02-27,1° Medio B,Femenino,Renca,Chilena
+439,Bastian ignacio,Mancilla,Zamora,23034820-0,2009-06-03,3° Medio A,Masculino,Renca,Chilena
+440,Evolet Francisca,Paz,Alarcon,24316315-3,2013-06-26,8° Básico B,Femenino,Renca,Chilena
+441,Almendra Ignacia,Cifuentes,Vergara,23900834-8,2012-03-10,1° Medio C,Femenino,Renca,Chilena
+442,Diego andres,Gonzalez,Basare,27925433-3,2010-04-30,2° Medio B,Masculino,Renca,Venezolana
+443,Raquel Alejandra,Carrasco,Osorio,23353209-6,2010-05-20,2° Medio D,Femenino,Renca,Chilena
+444,María Alejandra,Bayer,morales,26104501-k,2010-05-01,3° Medio D,Femenino,Renca,Colombiana
+445,Baythiare Ignacia,Fuentes,Rivera,23272316-5,2010-03-14,3° Medio D,Femenino,Cerro navia,Chilena
+446,Valentina Salome,OLMOS,Morales,23761917-k,2011-10-03,1° Medio C,Femenino,quilicura,Chilena
+447,Cristian Moisés,Paillal,Prado,23379692-1,2010-06-16,2° Medio B,Masculino,Pudahuel,Chilena
+448,Sofía  Evolet,Mutinelli,gonzález,23723267-4,2011-08-19,1° Medio D,Femenino,Renca,Chilena
+449,Gaspar Ignacio,Castro,Acevedo,23117036-7,2009-09-04,3° Medio C,Masculino,Renca,Chilena
+450,Felipe  oscar,Miranda,Fuentealba,22546888-5,2007-10-17,4° Medio A,Masculino,Renca,Chilena
+451,Majesvari Dharma,D'Ambrosio,Flores,23504892-2,2010-12-19,2° Medio C,Femenino,Renca,Chilena
+452,Cristian Ariel,Llancafil,González,23770095-3,2001-10-14,1° Medio C,Masculino,renca,Chilena
+453,Antonia Elizabeth,Astudillo,Solorza,23847479-5,2012-01-06,1° Medio C,Femenino,Pudahuel,Chilena
+454,Luis Maximiliano,Ávila,Robles,23890089-1,2012-03-02,1° Medio C,Masculino,Renca,Chilena
+455,Ashly Araxy,Acevedo,Leal,23240455-8,2010-01-29,2° Medio D,Femenino,Renca,Chilena
+456,Jailin de los angeles,Sepulveda,Murillo,28163012-1,2010-05-04,2° Medio C,Femenino,Pudahuel,venezolana
+457,Diego Felipe,Martinez,Herrera,23302250-0,2010-04-19,1° Medio A,Masculino,Renca,Chilena
+458,Emilia Isabel,Flores,Lau,23581728-4,2011-03-10,2° Medio C,Femenino,Cerro Navia,Chilena
+459,Dilan Yadiel,Vergara,Lara,23627229-k,2011-04-18,1° Medio C,Masculino,Renca,Chilena
+460,Benjamin Alejandro,Fuentes,Vega,23627734-8,2011-04-24,1° Medio C,Masculino,Renca,Chilena
+461,Josefina Ignacia Esther,García,Retamales,23832914-0,2011-12-27,1° Medio B,Femenino,Renca,Chilena
+462,Bastian Alonso,Barraza,Vallejos,23476848-4,2010-11-11,1° Medio C,Masculino,Renca,Chilena
+463,Tais Alejandra,Castro,Pincheira,23573089-8,2011-02-28,1° Medio C,Femenino,Renca,Chilena
+464,Ignacia mímico victoria,Belmar,Zúñiga,23394773-3,2010-08-07,2° Medio D,Femenino,Renca,Chilena
+465,Mariangel,Garcia,Ramirez,28914517-6,2011-11-26,1° Medio D,Femenino,Renca,Colombiana
+466,Benjamin Alejandro,Alarcon,Henriquez,23688868-1,2011-07-06,1° Medio C,Masculino,Renca,Chilena
+467,Victoria Avril,Contreras,Olguin,23479429-9,2010-11-11,2° Medio D,Femenino,Quinta Normal,Chilena
+468,Patricio,yañez,Jara,23911556-k,2012-04-29,1° Medio C,Masculino,Renca,Chilena
+469,Benjamin Rodrigo,Huechucoy,Huechucoy,23912155-1,2012-03-26,1° Medio A,Masculino,Renca,Chilena
+470,Devis Corayma,Millan,Cabero,24579514-9,2014-03-22,7° Básico A,Femenino,Renca,Chilena
+471,Colomba Danae,Valdivieso,Salas,23736602-6,2011-08-30,7° Básico A,Femenino,Renca,Chilena
+472,Amaro Nicolas,Valdivieso,Salas,24097471-1,2012-10-17,7° Básico A,Masculino,Renca,Chilena
+473,Branco Andres,Moreno,Delard,22577171-5,2007-12-09,4° Medio A,Masculino,Renca,Chilena
+474,Leonardo Gabriel,Riffo,Jimenez,23612960-8,2011-04-05,2° Medio B,Masculino,Renca,Chilena
+475,Jhoan alejandro,Morales,Leon,22740840-5,2008-06-08,2° Medio B,Masculino,Renca,Chilena
+476,Bianca Sarai,Gómez,Chandía,23673499-5,2011-06-10,1° Medio D,Femenino,renca,Chilena
+477,Sofia Esperanza,Ayala,Rojas,23746540-7,2011-09-13,1° Medio D,Femenino,Renca,Chilena
+478,Misael,Valdez,Liriano,25284400-7,2007-06-20,4° Medio B,Masculino,Renca,Dominicana
+479,Daray,Guerrero,Leiva,22470294-9,2025-07-24,4° Medio A,Femenino,Renca,Chilena
+480,Sofia Antonia,Rocha,Velasquez,24153483-9,2012-12-31,8° Básico B,Femenino,Cerro Navia,Chilena
+481,Javiera Valentina,Fernandez,Oyarzo,23519961-0,2011-01-04,2° Medio D,Femenino,Renca,Chilena
+482,Allison Dominique,Chávez,Chávez,23726540-8,2011-08-11,1° Medio C,Femenino,Pudahuel,Chilena
+483,Dominique Anais,Arellano,Loyola,24515976-5,2014-01-21,7° Básico A,Femenino,Renca,Chilena
+484,Damian Alonso,Cruz,Romero,23786165-5,2011-11-01,1° Medio C,Masculino,Pudahuel,Chilena
+485,Lucas Jeremias,Cortez,Moreno,23580247-3,2011-03-09,1° Medio D,Masculino,Cerro Navia,Chilena
+486,Dominique Angelina,Cardenas,Moya,24122516-k,2012-11-23,8° Básico A,Femenino,Renca,Chilena
+487,Antonella Constanza,Rojas,Perez,23434550-8,2010-09-26,2° Medio D,Femenino,Lampa,Chilena
+488,Jocelyn Xiomara,Cifuentes,Chahua,23613246-3,2011-04-07,1° Medio A,Femenino,Renca,Chilena
+489,Consuelo Alejandra,Flores,Gonzalez,23533972-2,2011-01-13,2° Medio D,Femenino,Renca,Chilena
+490,Lashmy monserrat,Seguel,Mazuela,23719555-8,2011-08-10,1° Medio A,Femenino,Renca,Chilena
+491,Roberto Enrique,Moya,López,22971530-5,2009-03-14,3° Medio B,Masculino,Pudahuel,Chilena
+492,Vicente Benjamín,Moya,López,23271162-0,2010-03-12,2° Medio B,Masculino,Pudahuel,Chilena
+493,Emilye Antonella,Garrido,Paredes,24393469-9,2013-08-30,7° Básico A,Femenino,Renca,Chilena
+494,Atenea Anais,Campos,Galvez,22935868-5,2009-01-24,3° Medio D,Femenino,Renca,Chilena
+495,Miguel Angel,Lorca,Caicheo,24001073-9,2012-07-05,7° Básico A,Masculino,Renca,Chilena
+496,Dylan Isaias,Gutierrez,Belmar,23509383-9,2010-12-21,1° Medio D,Masculino,Renca,Chilena
+497,Tomas Cesc,Nuñez,Correa,23155703-2,2009-10-22,2° Medio B,Masculino,Lampa,Chilena
+498,Emilia Francisca,Alvarez,Oyaneder,23929230-5,2021-12-04,1° Medio D,Femenino,Pudahuel,Chilena
+499,Pascal Ignacia,Muñoz,Pizarro,23873590-2,2012-02-13,1° Medio C,Femenino,Lampa,Chilena
+500,Alejandra Corina,Aguayo,Mejías,23561252-6,2022-02-22,1° Medio C,Femenino,Renca,Chilena
+501,Joakin Alexander,Molina,Araya,23138041-8,2009-10-01,1° Medio D,Masculino,Renca,Chilena
+502,Ayleen Raquel,Pinto,Tapia,23854921-3,2012-01-25,1° Medio C,Femenino,RENCA,Chilena
+503,Isidora Antonia,Oyarzo,Benavides,23687203-3,2011-07-07,1° Medio D,Femenino,Renca,Chilena
+504,Paris Amaro,Almendras,Merino,23850203-9,2012-01-20,1° Medio D,Masculino,RENCA,Chilena
+505,Emeli Johana,Jara,Herrera,23685426-4,2011-06-29,2° Medio B,Femenino,Renca,Chilena
+506,Poleth Isidora Almendra,Galaz,Silva,23807657-9,2011-11-27,1° Medio C,Femenino,Renca,Chilena
+507,Krishna Gianela,Ibarra,Romo,23837798-6,2012-01-06,1° Medio C,Femenino,RENCA,Chilena
+508,Alison Ayleen,Saavedra,Retamales,23460671-9,2010-10-24,2° Medio D,Femenino,Renca,Chilena
+509,Diego Nicolás,Carreño,Antiqueo,235469448,2011-01-28,1° Medio C,Masculino,Quinta Normal,Chilena
+510,Carla Elizabeth,Donoso,Fernandez,23690011-8,2011-07-11,1° Medio D,Femenino,Renca,Chilena
+511,Catalina Andrea,Gonzalez,Corrales,24345766-1,2013-07-30,7° Básico A,Femenino,RENCA,Chilena
+512,Tabita María,Arcos,Aguirre,24213732-9,2013-03-05,1° Medio C,Femenino,Renca,Chilena
+513,Daniel Alexis,Ortiz,Fuentes,23789516-9,2011-11-05,1° Medio D,Masculino,Renca,Chilena
+514,CHRISTOPHER MOISES,REGEASSE,REGEASSE,23635970-0,2011-05-03,2° Medio B,Masculino,CERRO NAVIA,Chilena
+515,Isidora Valentina,Seaman,avila,23809913-7,2011-11-29,1° Medio D,Femenino,Renca,Chilena
+516,CATALINA ALEXANDRA,ARANGUIZ,LIZANA,23717345-7,2011-08-01,1° Medio B,Femenino,RENCA,Chilena
+517,Leandro,",",Santisteban,24161745-9,2011-12-16,1° Medio D,Masculino,Renca,Peruana
+518,Maite Alejandra,Gonzalez,Baeza,22523089-7,2007-10-08,4° Medio D,Femenino,Renca,Chilena
+519,KAMILA PAZKALL,GONZALEZ,CANCINO,23845409-3,2012-01-11,1° Medio D,Femenino,RENCA,Chilena
+520,Sofia Paz,Mosqueira,Antillanca,23088791-8,2009-06-28,3° Medio A,Femenino,Renca,Chilena
+521,Remigio Jesús,Hernández,pozo,23342101-4,2010-06-04,2° Medio A,Masculino,renca,Chilena
+522,JONAS ALEJANDRO RENATO,POLO,GONZALEZ,23481898-8,2010-10-24,8° Básico B,Masculino,RENCA,Chilena
+523,Julian Agustin,Julcamoro,Gomez,26453265-5,2008-04-19,4° Medio A,Masculino,Renca,Peruana
+524,wid_Neilla Santiana,Michaud,.,26.486.629,2014-02-19,7° Básico A,Femenino,Renca,Haitiana
+525,FELIPE IGNACIO,SALAZAR,CANTILLANA,24355618-K,2013-08-08,7° Básico A,Masculino,RENCA,Chilena
+526,Mauro Nicolas,Rivas,Zuñiga,23942353-1,2012-05-06,8° Básico A,Masculino,Renca,Chilena
+527,TERESA,ARAVENA,DIAZ,23690356-7,2011-06-06,1° Medio D,Femenino,RENCA,Chilena
+528,Lyan Ignacio,Zamora,Fernandez,24435497-1,2013-11-01,7° Básico A,Masculino,renca,Chilena
+529,Dilan Maximiliano,Valenzuela,Saez,23521538-1,2011-01-05,1° Medio C,Masculino,Renca,Chilena
+530,Geremy Leonardo,Merchan,Araya,27597100-5,2010-08-10,2° Medio D,Masculino,Renca,Peruana
+531,ANGELO BRANDON,RIVAS,SEPULVEDA,23160502-9,2009-10-02,1° Medio D,Masculino,PUDAHUEL,Chilena
+532,Martin Maximo,Gutierrez,Govinden,24493635-0,2013-12-23,7° Básico A,Masculino,Renca,Chilena
+533,Sayenn Ignacia,Alfaro,Figueroa,24451648-3,2013-11-04,7° Básico A,Femenino,Renca,Chilena
+534,LUCAS DENZEL,CARCAMO,GOMEZ,23030549-8,2009-05-29,1° Medio D,Masculino,RENCA,Chilena
+535,jazmín Dioselina,Rivera,Cahuillán,23884458-4,2012-02-24,1° Medio C,Femenino,renca,Chilena
+536,Martin,Gonzalez,Ilufi,23389788-4,2010-07-27,2° Medio A,Masculino,Conchali,Chilena
+537,Lenix,Nahuelhuan,nahuelhuan,23086070-k,2009-07-18,2° Medio D,Masculino,Renca,Chilena
+538,Javiera Ester,Azocar,Azocar,23413470-1,2025-12-25,2° Medio A,Femenino,Renca,Chilena
+539,Ailyne antonia cecilia,Ancamilla,Espinoza,23434772-1,2010-09-27,2° Medio A,Femenino,Renca,Chilena
+540,Emilia Florencia,Cares,Suarez,23413727-1,2010-08-31,2° Medio A,Femenino,Renca,Chilena
+541,Mia Angelina,Benitez,Sosa,27791172-8,2011-06-29,2° Medio A,Femenino,Renca,Chilena
+542,Romané Belén,Ahumada,González,23924346-0,2012-04-12,1° Medio D,Femenino,Renca,Chilena
+543,Catalina Constanza,Huelchual,Lorca,23029036-9,2009-05-27,2° Medio A,Femenino,Renca,Chilena
+544,Isidora Ailen,Macias,Supanta,23003343-9,2009-04-23,2° Medio A,Femenino,Renca,Chilena
+545,Lucas Tomás,Moraga,Painemán,23767890-7,2011-10-02,1° Medio D,Masculino,Renca,Chilena
+546,Brayan Franco,Contreras,Valenzuela,23869-109-5,2012-02-12,1° Medio D,Masculino,Renca,Chilena
+547,KATHALIA AGLAI,LABADY,.,28993637-8,2012-01-07,1° Medio D,Femenino,RENCA,Chilena
+548,Laura Esperanza,Muñoz,Dumenez,24494709-3,2013-12-30,7° Básico A,Femenino,Renca,Chilena
+549,ANTONELLA CATALINA,PUEBLA,RODRIGUEZ,23211482-7,2009-12-28,2° Medio D,Femenino,RENCA,Chilena
+550,Ricardo Diego,Rodriguez,Muñoz,23869061-7,2012-02-11,1° Medio D,Masculino,Renca,Chilena
+551,Bastián Agustín,González,Cordero,23537243-6,2011-01-14,8° Básico B,Masculino,Renca,Chilena
+552,Ambar Millaray,CarLeron,Rocha,23736017-6,2012-09-02,1° Medio D,Femenino,Renca,Chilena
+553,MIKAELLA ESMERALDA ANDREA,SANDOVAL,LEAL,22737923-5,2008-06-03,2° Medio D,Femenino,LO BARNECHEA,Chilena
+554,Sofia Catalina,Acevedo,Silva,23115331-4,2009-09-03,1° Medio D,Femenino,Renca,Chilena
+555,katalina Alexandra Anaís,Sandoval,Leal,23401961-9,2010-08-15,1° Medio B,Femenino,Lo Baarnechea,Chilena
+556,Krishna Baitiare,Lien,Urrutia,23487511-6,2010-02-25,1° Medio D,Femenino,Renca,Chilena
+557,Benjamín  Eduardo,San Martin,muñoz,23142479-2,2009-10-07,3° Medio A,Masculino,Renca,Chilena
+558,Agustin,Ramos,Villar,,2010-12-06,2° Medio A,Masculino,Renca,Chilena
+559,Catalina Ignacia,Salas,Cuevas,23225355-k,2010-01-14,3° Medio D,Femenino,Renca,Chilena
+560,Ignacia Fernanda,Castillo,Flores,23031296-6,2009-05-30,3° Medio D,Femenino,Renca,Chilena
+561,Emiliano Cristobal,López,Treufo,24364743-6,2013-08-09,7° Básico A,Masculino,Renca,Chilena
+562,Juan de Dios,Curipan,León,23713975-5,2011-08-05,1° Medio D,Masculino,Renca,Chilena
+563,Valentina Ignacia,Muñoz,Cabello,24198309-9,2013-01-11,7° Básico A,Femenino,Renca,Chilena
+564,Diaison,Lafleur,.,28704221-3,2011-10-03,1° Medio D,Masculino,Renca,Haitiana
+565,Mia Páscale,Meza,Toledo,23677600-k,2011-06-17,8° Básico B,Femenino,Renca,Chilena
+566,Keylee Antonia,Muñoz,Muñoz,23816153-3,2011-12-07,1° Medio C,Femenino,Renca,Chilena
+567,Constanza Javiera,Panes,Caceres,22536915-1,2007-10-27,4° Medio A,Femenino,Renca,Chilena
+568,Dais Daniela Andrea,Vigo,Lorca,22622902-7,2008-01-22,4° Medio C,Femenino,Renca,Chilena
+569,matias alejandro,vicencio,vicencio,13462109-5,2013-09-16,7° Básico A,Masculino,renca,chilena
+570,Constanza Belen,Bahamonde,Cerda,24000368-6,2012-07-08,8° Básico B,Femenino,Renca,Chilena
+571,Maikol Alexander,Parada,Ponce,22664113-0,2008-03-07,4° Medio B,Masculino,Renca,Chilena
+572,Vicente Ignacio,Escobar,Sanchez,23666998-k,2011-06-08,1° Medio C,Masculino,Renca,Chilena
+573,ANAHIS ANTONELLA,BARRAZA,RICO,24384996-9,2013-09-17,7° Básico A,Femenino,RENCA,Chilena
+574,RENATA JOSEFA,GALAZ,JARA,24313835-3,2013-06-20,7° Básico A,Femenino,RENCA,CHILENA
+575,LIONEL FERNANDO,ASTETE,ARRIAGADA,23836913-4,2012-01-02,7° Básico A,Masculino,RENCA,CHILENA
+576,ANGELO,MUÑOZ,SOTO,24530786-1,2014-01-29,7° Básico A,Masculino,RENCA,CHILENA
+577,DORIS ANGELINA,VALDES,RIVERO,24106892-7,2012-01-25,7° Básico A,Femenino,RENCA,CHILENA
+578,AMBAR DENISSE,VALERO,VILLAGRAN,23977996-4,2012-06-09,7° Básico A,Femenino,RENCA,CHILENA
+579,Krishna Belén,Aravena,Diaz,22577619-9,2007-12-09,4° Medio D,Femenino,Renca,Chilena
+580,FRANCISCA MILLARAY,JARA,VASQUEZ,23905178-2,2012-03-24,7° Básico A,Femenino,RENCA,CHILENA
+581,Aldana Amaranta,Alfaro,Maturana,23611931-9,2011-04-05,1° Medio A,Femenino,Renca,Chilena
+582,Sebastián Guillermo,Briones,Salamanca,23379200-4,2010-07-20,1° Medio A,Masculino,Renca,Chilena
+583,Laura Francisca,Ancapichún,Bustcovich,23885618-3,2012-02-21,1° Medio B,Femenino,Renca,Chilena
+584,Eloísa Anais,Astudillo,Ugarte,23565223-4,2011-02-11,1° Medio B,Femenino,Renca,Chilena
+585,Antonella Ignacia,Banda,Garces,23799200-8,2011-10-09,1° Medio B,Femenino,Renca,Chilena
+586,Paz Ignacia,Barria,Zuñiga,23806790-1,2011-10-27,1° Medio B,Femenino,Renca,Chilena
+587,Darío Manuel,Book,Mora,23822074-2,2011-12-15,1° Medio B,Masculino,Renca,Chilena
+588,Máximo Eduardo,Gómez,Arroyo,23559341-6,2011-02-10,1° Medio B,Masculino,Renca,Chilena
+589,Catalina Paz,Hernandez,Cerpa,24064736_2,2012-09-12,8° Básico A,Femenino,Renca,Chilena
+590,Felipe Antonio,Hernandez,Salgado,23566069-5,2011-02-05,1° Medio B,Masculino,Lampa,Chilena
+591,Julieta,Riquelme,Gonzalez,23841499-7,2026-01-02,1° Medio B,Femenino,Renca,Chilena
+592,Patricio Andres,Yañez,Jara,23911556-k,2012-03-04,1° Medio B,Masculino,Renca,Chilena
+593,Luciano Danhiel,López,Burgos,24155515-1,2012-12-29,8° Básico A,Masculino,Renca,Chilena
+594,MARTINA ISIDORA,CONTRERAS,CABRERA,23678761-3,2011-04-17,1° Medio A,Femenino,RENCA,CHILENA
+595,LEONIDAS,GUZMAN,FIGUEROA,239106625,2012-03-28,7° Básico A,Masculino,NOVICIADO,CHILENA
+596,Constanza Julieta,Salazar,Salazar,24421508-4,2013-10-18,7° Básico A,Femenino,Quinta Normal,Chilena
+597,Cristofer,Ayala,Suarez,22748321-0,2008-06-16,4° Medio B,Masculino,Renca,Chilena
+598,Bianca Danae,Ramirez,Jibaja,23712466-9,2011-08-05,1° Medio B,Femenino,Renca,Chilena
+599,JOSEFA AGUSTINA,PINO,PEREZ,23345175-4,2010-06-09,2° Medio A,Femenino,RENCA,CHILENA
+600,ISIDORA IGNACIA,OLIVOS,GUTIERREZ,23857557-5,2012-01-19,7° Básico A,Femenino,RENCA,CHILENA
+601,Stephania Ignacia,Quezada,Bahamondes,23638932-4,2011-05-08,8° Básico A,Femenino,Renca,Chilena
+602,Isidora,Romero,Rojas,23926186-8,2012-04-18,1° Medio C,Femenino,Renca,Chilena
+603,Antonella Paz,Millacan,Villagran,23756158-9,2011-09-22,1° Medio C,Femenino,Renca,Chilena
+604,Yasmin,Rivera,Canuillán,23884458-4,2012-02-24,1° Medio C,Femenino,Renca,Chilena
+605,Tais Alejandra,Castro,Pincheira,23573089-9,2011-02-28,1° Medio C,Femenino,Renca,Chilena
+606,ANTONIA CAROLINA,BOZO,VEGA,26667737-0,2011-06-13,2° Medio D,Femenino,RENCA,CHILENA
+607,Sofia Antonia,Chaparro,Mariman,23657035-5,2011-05-29,1° Medio C,Femenino,Renca,Chilena
+608,Martin Alex,Contreras,Carrasco,23625406-2,2011-04-21,1° Medio C,Masculino,Renca,Chilena
+609,Florencia Agustina,Del Pino,Huaiquiñir,23764861-7,2011-10-07,1° Medio C,Femenino,Renca,Chilena
+610,Bianca Sarai,Gómez,Chandia,23675499-5,2011-06-10,1° Medio C,Femenino,Renca,Chilena
+611,Joaquín Alonso,Manquelaf,Panchana,23685967-3,2011-07-05,1° Medio C,Femenino,Quinta Normal,Chilena
+612,Kony Alexia,Pavez,Esparza,23573390-0,2011-02-27,1° Medio C,Femenino,Renca,Chilena
+613,Yulian Reimundo,San Martin,Berrios,23173864-9,2009-11-16,2° Medio D,Masculino,Renca,Chilena
+614,Sebastián Andrés,Sanhueza,Cayul,23865490-4,2012-02-08,1° Medio D,Masculino,Renca,Chilena
+615,Lorena Ignacia,Vega,Sanhueza,23220172-k,2009-12-30,2° Medio D,Femenino,Renca,Chilena
+616,Melannie Paulette,Muñoz,González,23600521-6,2011-03-22,2° Medio A,Femenino,Renca,Chilena
+617,Colomba Anais,Salinas,Jopia,27160080-1,2011-06-04,8° Básico B,Femenino,Quilicura,Chilena
+618,YORDAN AQUILES,ARAVENA,ROJAS,23498975-8,2010-12-06,1° Medio D,Masculino,RENCA,CHILENA
+619,Luciano Danhiel,López,Burgos,24155515-1,2012-12-29,8° Básico A,Masculino,Renca,Chilena
+620,Emilia Agustina,Machuca,Pizarro,24166845-2,2012-12-19,8° Básico A,Femenino,Renca,Chilena
+621,Martin Rafael,Padilla,Ramirez,23444345-3,2010-10-06,8° Básico A,Masculino,Renca,Chilena
+622,Tabita María,Arcos,Aguirre,24213732-9,2013-03-05,8° Básico B,Femenino,Renca,Chilena
+623,Sofia Daniela,Marchant,Espinoza,23786804-8,2018-07-25,8° Básico B,Femenino,Quilicura,Chilena
+624,Barbara,Meneses,Ramirez,28591155-9,2012-12-04,8° Básico B,Femenino,Renca,Venezolano
+625,ALDANA AMARANTA,ALFARO,MATURANA,23611931-9,2011-04-05,1° Medio A,Femenino,RENCA,CHILENA
+626,Sebastián Guillermo,Briones,Salamanca,23379200-4,2010-07-20,1° Medio A,Masculino,Renca,Chilena
+627,Mia Pascale,Cornejo,Prado,23663194-k,2011-06-06,1° Medio A,Femenino,Renca,Chilena
+628,DANIEL JESUS,GARCIA,CONCHA,23558095-0,2011-02-08,1° Medio B,Masculino,RENCA,CHILENA
+629,AGUSTINA,GAJARDO,OLMEDO,23817285-3,2011-12-10,1° Medio B,Femenino,RENCA,CHILENA
+630,ANTONELLA ANDREA,VERA,MARIN,23777163-K,2011-10-19,1° Medio B,Femenino,RENCA,CHILENA
+631,AFRODITA ALEXA,GUZMAN,FIGUEROA,23470630-6,2010-11-05,1° Medio C,Femenino,PUDAHUEL,CHILENA
+632,Valeria Daela,Fernandez,Parihuaman,25282202-k,2026-12-06,1° Medio A,Femenino,Renca,Chilena
+633,Antonela Paz,Figueroa,Cáceres,23857194-4,2012-01-25,1° Medio A,Femenino,Renca,Chilena
+634,Agustín Maximiliano,Hiza,Vargas,23477170-1,2010-11-05,1° Medio A,Masculino,Cerro Navia,Chilena
+635,María Jazmín,Medina,Martinez,23916036-0,2012-04-06,1° Medio A,Femenino,Renca,Chilena
+636,Martin Absalón,Medina,Morales,23319920-6,2010-05-08,1° Medio A,Masculino,Renca,Chileno
+637,Benjamín Fidel,San Martin,Morales,23308573-1,2010-04-26,1° Medio C,Masculino,Renca,Chilena
+638,Abigail Isidora,Oblea,Arce,23889228-7,2012-02-29,1° Medio A,Femenino,Renca,Chilena
+639,Emma Pascale,Olivera,Corvalán,23277296-4,2010-03-21,1° Medio A,Femenino,Renca,Chilena
+640,Miguel Ángel de Jesús,Quilodrán,Mallea,23880290-3,2012-02-23,1° Medio A,Masculino,Renca,Chilena
+641,Antonella,Rodríguez,Orellana,23385450-6,2010-07-29,1° Medio A,Femenino,Renca,Chilena
+642,Amy Valeska,Espinoza,Montesinos,100741303-k,2010-02-20,3° Medio D,Femenino,Renca,Peruana
+643,Mariangel,Acevedo,Estanga,33254536,2009-08-27,3° Medio D,Femenino,Renca,Venezolana
+644,DANNAE NAYEL,GONZALEZ,CACERES,23807010-4,2011-11-22,1° Medio D,Femenino,RENCA,CHILENA
+645,WISLEIDY LUISANA,QUINTERO,RODRIGUEZ,28827873-3,2009-01-23,4° Medio D,Femenino,RENCA,VENEZOLANA
+646,Lazlo Rasec,Puma,De las casas,28384237-1,2013-03-26,7° Básico A,Masculino,Renca,Peruano
+647,Martina,Diaz,Zenteno,23171025-6,2009-11-04,3° Medio B,Femenino,Pudahuel,Chilena
+648,Abigail Salem,Calderón,Silva,22996229-9,2009-04-16,3° Medio B,Femenino,Renca,Chilena
+649,Pascale Monserrat,Lepin,Escudero,22905364-7,2008-12-24,3° Medio B,Femenino,Renca,Chilena
+650,Héctor Jhoel,Velásquez,Cornelio,28231859-8,2009-12-19,3° Medio B,Masculino,Renca,Chilena
+651,Nicolás Benjamín,Maldonado,Diaz,23394877-2,2010-08-08,1° Medio A,Masculino,Renca,Chilena
+652,Dannae Nayel,Gonzalez,Cáceres,23807010-4,2011-11-22,1° Medio C,Femenino,Renca,Chilena
+653,Jonathan Emilio Andrés,Hernández,Bernadot,23859508-8,2012-01-31,1° Medio C,Masculino,Renca,Chilena
+654,Mia Paskal,Rodríguez,Mutinelli,23369860-1,2010-07-09,1° Medio C,Femenino,Renca,Chilena
+655,Trinidad,Sánchez,González,23768671-3,2011-10-10,1° Medio C,Femenino,Renca,Chilena
+656,Maximiliano,Viscarra,Muñoz,23781438-k,2011-10-25,1° Medio C,Masculino,Renca,Chilena
+657,Allison,Farías,Bello,23706501-7,2011-08-02,1° Medio D,Femenino,Renca,Chilena
+658,Benjamín Alexis,Ibañez,Perez,22973588-8,2009-03-18,1° Medio D,Masculino,Renca,Chilena
+659,Michel Maria,Pedreros,Miranda,23824825-6,2011-12-19,1° Medio D,Femenino,Renca,Chilena
+660,Benjamín Alejandro,Peralta,Leal,23782760-0,2011-10-29,1° Medio D,Masculino,Renca,Chilena
+661,MIGUEL ANGEL,ORELLANA,ORELLANA,23441578-6,2010-09-14,1° Medio B,Masculino,RENCA,CHILENA
+662,VICENTE ARTURO,TAPIA,CRISOSTOMO,22771791-2,2008-07-18,3° Medio B,Masculino,RENCA,CHILENA
+663,ALMENDRA ISABEL,CARDENAS,CARDENAS,23470118-5,2010-11-04,2° Medio D,Femenino,RENCA,CHILENA
+664,COLOMBA ANTONIA,VERGARA,MARIN,24330229-3,2013-07-12,7° Básico A,Femenino,RENCA,CHILENA
+665,COLOMBA,VERGARA,MARIN,24330229-3,2013-07-12,7° Básico A,Femenino,RENCA,CHILENA
+666,NOELIA FRANCISCa,CUEVAS,ZUÑIGA,22982952-1,2009-03-30,3° Medio D,Femenino,RENCA,CHILENA

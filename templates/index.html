@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>CondorEdu | Gestión Escolar</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+
+    <!-- JavaScript Principal -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     LOGIN
+===================================================== -->
+
+<section id="loginView" class="login-view">
+
+    <div class="login-card">
+
+        <div class="login-logo">
+
+            <img
+                class="condor-logo"
+                src="{{ url_for('static', filename='logo-condor.svg') }}"
+                alt="Logo CondorEdu"
+            >
+
+            <div>
+                <h1>CondorEdu</h1>
+                <p>Gestión Escolar</p>
+            </div>
+
+        </div>
+
+
+        <div class="login-title">
+
+            <h2>Iniciar sesión</h2>
+
+            <p>
+                Ingresa tus credenciales institucionales
+            </p>
+
+        </div>
+
+
+        <form id="loginForm">
+
+            <div class="input-group">
+
+                <label for="username">
+                    Usuario
+                </label>
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Ingresa tu usuario"
+                    autocomplete="username"
+                    required
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label for="password">
+                    Contraseña
+                </label>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Ingresa tu contraseña"
+                    autocomplete="current-password"
+                    required
+                >
+
+            </div>
+
+
+            <p
+                id="loginMessage"
+                class="login-message"
+            ></p>
+
+
+            <button
+                type="submit"
+                class="btn-primary login-button"
+            >
+                Ingresar al sistema
+            </button>
+
+        </form>
+
+
+        <div class="demo-users">
+
+            <b>Usuarios de prueba</b>
+
+            <span>admin / 1234</span>
+            <span>inspector / 1234</span>
+            <span>profesor / 1234</span>
+            <span>apoderado / 1234</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     APLICACIÓN
+===================================================== -->
+
+<section
+    id="appView"
+    class="app-view hidden"
+>
+
+
+    <!-- =================================================
+         SIDEBAR
+    ================================================== -->
+
+    <aside class="sidebar">
+
+        <div class="brand">
+
+            <img
+                class="brand-condor"
+                src="{{ url_for('static', filename='logo-condor.svg') }}"
+                alt="Logo CondorEdu"
+            >
+
+            <div>
+
+                <h1>CondorEdu</h1>
+
+                <span>
+                    Gestión Escolar
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="school-name">
+
+            Sistema institucional
+
+        </div>
+
+
+        <nav class="navigation">
+
+
+            <button
+                class="nav active"
+                data-section="dashboard"
+            >
+                <span>⌂</span>
+                Dashboard
+            </button>
+
+
+            <button
+                class="nav"
+                data-section="retiros"
+            >
+                <span>↪</span>
+                Retiro de alumnos
+            </button>
+
+
+            <button
+                class="nav"
+                data-section="asistencia"
+            >
+                <span>▥</span>
+                Asistencia
+            </button>
+
+
+            <button
+                class="nav"
+                data-section="alumnos"
+            >
+                <span>♙</span>
+                Alumnos
+            </button>
+
+
+            <button
+                class="nav"
+                data-section="apoderados"
+            >
+                <span>♧</span>
+                Apoderados
+            </button>
+
+
+            <button
+                class="nav"
+                data-section="auditoria"
+            >
+                <span>☷</span>
+                Auditoría
+            </button>
+
+
+            <button
+                class="nav"
+                data-section="usuarios"
+            >
+                <span>♙</span>
+                Usuarios
+            </button>
+
+
+        </nav>
+
+
+        <div class="sidebar-footer">
+
+            <div class="user-mini">
+
+                <div
+                    id="avatar"
+                    class="avatar"
+                >
+                    A
+                </div>
+
+                <div>
+
+                    <strong id="userName">
+                        Usuario
+                    </strong>
+
+                    <span id="userRole">
+                        Rol
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <button
+                id="logout"
+                class="logout"
+            >
+                Cerrar sesión
+            </button>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =================================================
+         CONTENIDO PRINCIPAL
+    ================================================== -->
+
+    <main class="main-content">
+
+
+        <!-- HEADER -->
+
+        <header class="topbar">
+
+            <div>
+
+                <span class="institution">
+                    Sistema institucional
+                </span>
+
+                <h2 id="pageTitle">
+                    Gestión Escolar
+                </h2>
+
+            </div>
+
+
+            <div class="topbar-actions">
+
+                <div class="global-search">
+
+                    <input
+                        type="text"
+                        id="globalSearch"
+                        placeholder="Buscar alumno, apoderado..."
+                    >
+
+                    <div
+                        id="globalResults"
+                        class="global-results"
+                    ></div>
+
+                </div>
+
+                <button
+                    id="themeToggle"
+                    class="theme-toggle"
+                    type="button"
+                    aria-label="Cambiar tema"
+                >
+                    🌙
+                </button>
+
+                <div class="header-condor">
+                    🦅
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- =================================================
+             DASHBOARD
+        ================================================== -->
+
+        <section
+            id="dashboard"
+            class="section active"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        RESUMEN
+                    </span>
+
+                    <h2>
+                        Panel principal
+                    </h2>
+
+                    <p>
+                        Visualiza el estado general
+                        del establecimiento.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- KPIs -->
+
+            <div class="kpis">
+
+
+                <div class="kpi-card">
+
+                    <span>
+                        Alumnos registrados
+                    </span>
+
+                    <strong id="totalStudents">
+                        0
+                    </strong>
+
+                    <small>
+                        Matrícula registrada
+                    </small>
+
+                </div>
+
+
+                <div class="kpi-card">
+
+                    <span>
+                        Retiros pendientes
+                    </span>
+
+                    <strong id="pending">
+                        0
+                    </strong>
+
+                    <small>
+                        Requieren revisión
+                    </small>
+
+                </div>
+
+
+                <div class="kpi-card">
+
+                    <span>
+                        Asistencia promedio
+                    </span>
+
+                    <strong id="average">
+                        0%
+                    </strong>
+
+                    <small>
+                        Promedio general
+                    </small>
+
+                </div>
+
+
+                <div class="kpi-card">
+
+                    <span>
+                        Apoderados
+                    </span>
+
+                    <strong id="totalGuardians">
+                        0
+                    </strong>
+
+                    <small>
+                        Registros activos
+                    </small>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="dashboard-grid">
+
+
+                <!-- GRÁFICA -->
+
+                <div class="panel chart-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="eyebrow">
+                                ESTADÍSTICA
+                            </span>
+
+                            <h3>
+                                Asistencia general
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chart-container">
+
+                        <canvas
+                            id="dashboardChart"
+                        ></canvas>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ALERTAS -->
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="eyebrow">
+                                SISTEMA
+                            </span>
+
+                            <h3>
+                                Alertas
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="alerts"
+                        class="alerts"
+                    ></div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ACTIVIDAD -->
+
+            <div class="panel">
+
+                <div class="panel-header">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            HISTORIAL
+                        </span>
+
+                        <h3>
+                            Actividad reciente
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="activity"
+                    class="activity-list"
+                ></div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             RETIROS
+        ================================================== -->
+
+        <section
+            id="retiros"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        CONTROL
+                    </span>
+
+                    <h2>
+                        Retiro de alumnos
+                    </h2>
+
+                    <p>
+                        Registra, verifica y controla
+                        el retiro de estudiantes.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="two-columns">
+
+
+                <!-- FORMULARIO -->
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="eyebrow">
+                                NUEVO REGISTRO
+                            </span>
+
+                            <h3>
+                                Solicitud de retiro
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <form id="withdrawalForm">
+
+
+                        <div class="input-group">
+
+                            <label for="studentSearchInput">
+                                Buscar alumno
+                            </label>
+
+                            <input
+                                type="search"
+                                id="studentSearchInput"
+                                placeholder="Escribe nombre o curso"
+                                autocomplete="off"
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="studentSelect">
+                                Alumno
+                            </label>
+
+                            <select
+                                id="studentSelect"
+                                required
+                            >
+
+                                <option value="">
+                                    Seleccione alumno...
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="guardianRut">
+                                RUT del apoderado
+                            </label>
+
+                            <input
+                                type="text"
+                                id="guardianRut"
+                                placeholder="Ej: 12.345.678-9"
+                                required
+                            >
+
+                        </div>
+
+
+                        <button
+                            type="button"
+                            id="verify"
+                            class="btn-secondary"
+                        >
+                            Verificar apoderado
+                        </button>
+
+
+                        <div
+                            id="verification"
+                            class="verify"
+                        >
+                            Seleccione alumno e ingrese RUT.
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="person">
+                                Persona que retira
+                            </label>
+
+                            <input
+                                type="text"
+                                id="person"
+                                placeholder="Nombre completo"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="reason">
+                                Motivo
+                            </label>
+
+                            <select
+                                id="reason"
+                                required
+                            >
+
+                                <option value="">
+                                    Seleccione motivo...
+                                </option>
+
+                                <option value="Control médico">
+                                    Control médico
+                                </option>
+
+                                <option value="Problema familiar">
+                                    Problema familiar
+                                </option>
+
+                                <option value="Trámite">
+                                    Trámite
+                                </option>
+
+                                <option value="Emergencia">
+                                    Emergencia
+                                </option>
+
+                                <option value="Otro">
+                                    Otro
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="observation">
+                                Observación
+                            </label>
+
+                            <textarea
+                                id="observation"
+                                rows="4"
+                                placeholder="Información adicional..."
+                            ></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn-primary full"
+                        >
+                            Registrar retiro
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+
+
+                <!-- INFORMACIÓN -->
+
+                <div class="panel info-panel">
+
+                    <span class="eyebrow">
+                        PROCESO
+                    </span>
+
+                    <h3>
+                        Flujo de retiro
+                    </h3>
+
+
+                    <div class="process">
+
+                        <div class="process-step">
+
+                            <span>1</span>
+
+                            <div>
+
+                                <b>
+                                    Selección
+                                </b>
+
+                                <p>
+                                    Selecciona al alumno
+                                    correspondiente.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="process-step">
+
+                            <span>2</span>
+
+                            <div>
+
+                                <b>
+                                    Verificación
+                                </b>
+
+                                <p>
+                                    Comprueba que el RUT
+                                    corresponda al apoderado.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="process-step">
+
+                            <span>3</span>
+
+                            <div>
+
+                                <b>
+                                    Registro
+                                </b>
+
+                                <p>
+                                    Ingresa los datos
+                                    del retiro.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="process-step">
+
+                            <span>4</span>
+
+                            <div>
+
+                                <b>
+                                    Autorización
+                                </b>
+
+                                <p>
+                                    Inspector o administrador
+                                    revisa la solicitud.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="process-step">
+
+                            <span>5</span>
+
+                            <div>
+
+                                <b>
+                                    Finalización
+                                </b>
+
+                                <p>
+                                    Se registra el retiro
+                                    como finalizado.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- TABLA -->
+
+            <div class="panel">
+
+                <div class="panel-header">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            REGISTROS
+                        </span>
+
+                        <h3>
+                            Historial de retiros
+                        </h3>
+
+                    </div>
+
+
+                    <input
+                        type="search"
+                        id="withdrawalSearch"
+                        class="table-search"
+                        placeholder="Buscar retiro..."
+                    >
+
+                </div>
+
+
+                <div class="table-wrapper">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Hora</th>
+                                <th>Alumno</th>
+                                <th>Retira</th>
+                                <th>Motivo</th>
+                                <th>Estado</th>
+                                <th>Acciones</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody
+                            id="withdrawalTable"
+                        ></tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ASISTENCIA
+        ================================================== -->
+
+        <section
+            id="asistencia"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        ESTADÍSTICAS
+                    </span>
+
+                    <h2>
+                        Asistencia de alumnos
+                    </h2>
+
+                    <p>
+                        Consulta el rendimiento de asistencia
+                        por alumno y curso.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="filters">
+
+                <div class="input-group">
+
+                    <label for="course">
+                        Curso
+                    </label>
+
+                    <select id="course">
+
+                        <option value="Todos">
+                            Todos los cursos
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="period">
+                        Periodo
+                    </label>
+
+                    <select id="period">
+
+                        <option value="actual">
+                            Año actual
+                        </option>
+
+                        <option value="anterior">
+                            Año anterior
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <div class="kpis attendance-kpis">
+
+                <div class="kpi-card">
+
+                    <span>
+                        Asistencia
+                    </span>
+
+                    <strong>
+                        0%
+                    </strong>
+
+                </div>
+
+
+                <div class="kpi-card">
+
+                    <span>
+                        Inasistencia
+                    </span>
+
+                    <strong>
+                        0%
+                    </strong>
+
+                </div>
+
+
+                <div class="kpi-card">
+
+                    <span>
+                        Justificaciones
+                    </span>
+
+                    <strong>
+                        2%
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="dashboard-grid">
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="eyebrow">
+                                GRÁFICA
+                            </span>
+
+                            <h3>
+                                Asistencia por alumno
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="large-chart">
+
+                        <canvas
+                            id="attendanceChart"
+                        ></canvas>
+
+                    </div>
+
+                </div>
+
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="eyebrow">
+                                DETALLE
+                            </span>
+
+                            <h3>
+                                Alumnos
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="attendanceList"
+                        class="attendance-list"
+                    ></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ALUMNOS
+        ================================================== -->
+
+        <section
+            id="alumnos"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        MATRÍCULA
+                    </span>
+
+                    <h2>
+                        Alumnos
+                    </h2>
+
+                    <p>
+                        Registro general de estudiantes.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="panel">
+
+                <div class="panel-header">
+
+                    <h3>
+                        Registro de alumnos
+                    </h3>
+
+                    <input
+                        type="search"
+                        id="studentSearch"
+                        class="table-search"
+                        placeholder="Buscar alumno..."
+                    >
+
+                </div>
+
+
+                <div class="table-wrapper">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Alumno</th>
+                                <th>Curso</th>
+                                <th>Asistencia</th>
+                                <th>Apoderado</th>
+                                <th>Acciones</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody
+                            id="studentTable"
+                        ></tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+
+            <div
+                id="profile"
+                class="profile-modal hidden"
+            ></div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             APODERADOS
+        ================================================== -->
+
+        <section
+            id="apoderados"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        REGISTRO
+                    </span>
+
+                    <h2>
+                        Apoderados
+                    </h2>
+
+                    <p>
+                        Administración de responsables
+                        de los estudiantes.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="two-columns">
+
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="eyebrow">
+                                NUEVO
+                            </span>
+
+                            <h3>
+                                Registrar apoderado
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <form id="guardianForm">
+
+
+                        <div class="input-group">
+
+                            <label for="gName">
+                                Nombre completo
+                            </label>
+
+                            <input
+                                id="gName"
+                                type="text"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="gRut">
+                                RUT
+                            </label>
+
+                            <input
+                                id="gRut"
+                                type="text"
+                                placeholder="12.345.678-9"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="gPhone">
+                                Teléfono
+                            </label>
+
+                            <input
+                                id="gPhone"
+                                type="tel"
+                                placeholder="+56 9..."
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="gEmail">
+                                Correo electrónico
+                            </label>
+
+                            <input
+                                id="gEmail"
+                                type="email"
+                                placeholder="correo@email.com"
+                            >
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="gStudent">
+                                Alumno asociado
+                            </label>
+
+                            <select
+                                id="gStudent"
+                                required
+                            >
+
+                                <option value="">
+                                    Seleccione alumno...
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="gRelation">
+                                Parentesco
+                            </label>
+
+                            <select
+                                id="gRelation"
+                                required
+                            >
+
+                                <option value="">
+                                    Seleccione...
+                                </option>
+
+                                <option value="Madre">
+                                    Madre
+                                </option>
+
+                                <option value="Padre">
+                                    Padre
+                                </option>
+
+                                <option value="Apoderado legal">
+                                    Apoderado legal
+                                </option>
+
+                                <option value="Tutor">
+                                    Tutor
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn-primary full"
+                        >
+                            Registrar apoderado
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="eyebrow">
+                                INFORMACIÓN
+                            </span>
+
+                            <h3>
+                                Control de apoderados
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature-list">
+
+                        <div>
+                            <b>
+                                ✓ Verificación
+                            </b>
+
+                            <p>
+                                El sistema comprueba
+                                la relación entre alumno
+                                y apoderado.
+                            </p>
+                        </div>
+
+
+                        <div>
+                            <b>
+                                ✓ Registro
+                            </b>
+
+                            <p>
+                                Mantiene información
+                                de contacto actualizada.
+                            </p>
+                        </div>
+
+
+                        <div>
+                            <b>
+                                ✓ Trazabilidad
+                            </b>
+
+                            <p>
+                                Cada modificación importante
+                                queda registrada.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="panel">
+
+                <div class="panel-header">
+
+                    <h3>
+                        Apoderados registrados
+                    </h3>
+
+                    <input
+                        type="search"
+                        id="guardianSearch"
+                        class="table-search"
+                        placeholder="Buscar apoderado..."
+                    >
+
+                </div>
+
+
+                <div class="table-wrapper">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Nombre</th>
+                                <th>RUT</th>
+                                <th>Alumno</th>
+                                <th>Teléfono</th>
+                                <th>Estado</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody
+                            id="guardianTable"
+                        ></tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             AUDITORÍA
+        ================================================== -->
+
+        <section
+            id="auditoria"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        SEGURIDAD
+                    </span>
+
+                    <h2>
+                        Auditoría
+                    </h2>
+
+                    <p>
+                        Historial de acciones realizadas
+                        en el sistema.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="panel">
+
+                <div class="panel-header">
+
+                    <h3>
+                        Registro de actividad
+                    </h3>
+
+                    <input
+                        type="search"
+                        id="auditSearch"
+                        class="table-search"
+                        placeholder="Buscar registro..."
+                    >
+
+                </div>
+
+
+                <div class="table-wrapper">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Fecha</th>
+                                <th>Hora</th>
+                                <th>Usuario</th>
+                                <th>Acción</th>
+                                <th>Alumno</th>
+                                <th>Resultado</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody
+                            id="auditTable"
+                        ></tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             USUARIOS
+        ================================================== -->
+
+        <section
+            id="usuarios"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        ADMINISTRACIÓN
+                    </span>
+
+                    <h2>
+                        Usuarios y roles
+                    </h2>
+
+                    <p>
+                        Control de accesos del sistema.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="panel">
+
+                <div class="panel-header">
+
+                    <h3>
+                        Usuarios registrados
+                    </h3>
+
+                </div>
+
+
+                <div class="table-wrapper">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Usuario</th>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                                <th>Permisos</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody
+                            id="userTable"
+                        ></tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+
+            <div class="role-cards">
+
+                <div class="role-card">
+
+                    <span>ADMIN</span>
+
+                    <h3>
+                        Administrador
+                    </h3>
+
+                    <p>
+                        Acceso completo al sistema.
+                    </p>
+
+                </div>
+
+
+                <div class="role-card">
+
+                    <span>INSPECTOR</span>
+
+                    <h3>
+                        Inspector
+                    </h3>
+
+                    <p>
+                        Control de retiros,
+                        asistencia y auditoría.
+                    </p>
+
+                </div>
+
+
+                <div class="role-card">
+
+                    <span>PROFESOR</span>
+
+                    <h3>
+                        Profesor
+                    </h3>
+
+                    <p>
+                        Consulta y gestión
+                        de información académica.
+                    </p>
+
+                </div>
+
+
+                <div class="role-card">
+
+                    <span>APODERADO</span>
+
+                    <h3>
+                        Apoderado
+                    </h3>
+
+                    <p>
+                        Consulta de información
+                        autorizada.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+</section>
+
+
+
+<!-- =====================================================
+     TOAST
+===================================================== -->
+
+<div
+    id="toast"
+    class="toast"
+></div>
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
+

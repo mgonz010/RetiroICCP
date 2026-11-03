@@ -1,0 +1,14 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="110" cy="110" r="96" fill="#0B1D35"/>
+  <circle cx="110" cy="110" r="88" fill="#0A2547" stroke="#E8EEF9" stroke-width="2"/>
+  <path d="M62 112L95 92L110 68L128 92L154 112L175 120L154 118L130 134L110 152L90 134L66 118L62 112Z" fill="#F4F7FB"/>
+  <path d="M110 48L120 82L154 84L127 102L137 136L110 117L83 136L93 102L66 84L100 82L110 48Z" fill="#F4F7FB"/>
+  <path d="M38 144C62 130 76 128 92 130C102 131 108 133 116 138C120 141 123 144 126 147L127 171C90 175 65 173 38 165V144Z" fill="#F6C95F"/>
+  <path d="M109 136C126 124 142 120 163 123C177 125 189 129 201 138L185 171C154 177 131 177 109 171V136Z" fill="#F2C55C"/>
+  <path d="M75 147L110 48L145 147" stroke="#0A2547" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36 162C59 152 82 148 110 149C136 150 160 154 184 162" stroke="#0A2547" stroke-width="7" stroke-linecap="round"/>
+  <path d="M65 92L80 105L66 108L75 121L59 117L49 132L44 116L29 120L39 105L25 92L43 97L53 84L65 92Z" fill="#F4F7FB"/>
+  <path d="M152 94L168 108L155 110L164 123L148 120L138 134L134 118L119 123L128 108L115 94L132 100L142 86L152 94Z" fill="#F4F7FB"/>
+  <text x="110" y="185" text-anchor="middle" fill="#F4F7FB" font-size="15" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">INSTITUTO</text>
+  <text x="110" y="200" text-anchor="middle" fill="#F4F7FB" font-size="15" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">CONDOR EDU</text>
+</svg>
